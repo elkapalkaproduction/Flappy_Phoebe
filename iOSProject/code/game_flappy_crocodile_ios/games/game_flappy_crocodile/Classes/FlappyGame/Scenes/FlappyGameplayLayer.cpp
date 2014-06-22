@@ -815,10 +815,12 @@ private:
 		}
 		else if (target == _butRange)
 		{
-			sk::game_services::open_url(CCUserDefault::sharedUserDefault()->getStringForKey("AVURLNeoninks").c_str());
+            _parent->ShowAboutUs(true, false);
+
 		}
         else if (target == _butRate)
         {
+            
             sk::game_services::open_url(CCUserDefault::sharedUserDefault()->getStringForKey("AVURLRateNeoninks").c_str());
 //            sk::game_services::on_rate_me_pressed();
         }
@@ -855,6 +857,143 @@ private:
 	}
 };
 
+class FlappyAboutUsLayer : public CCNode, public ig_interface::IBtnDelegate
+{
+private:
+	ig_interface::Button* _butPlay;
+    ig_interface::Button* _butRate;
+	FlappyGameplayLayer* _parent;
+	CCLayerColor* _layerColor;
+    
+public:
+	FlappyAboutUsLayer(FlappyGameplayLayer* parent)
+    : _parent(parent),
+    _butPlay(),
+    _butRate(),
+
+    _layerColor()
+	{
+	}
+    
+	void Init()
+	{
+		auto winSize = InputHelper::GetUnscaledWindowSize();
+        
+        auto desktopSize = InputHelper::GetDesktopWindowSize();
+        float desktopWidth = desktopSize.width;
+        float desktopHeight = desktopSize.height;
+        float scale = desktopWidth / 1536.f;
+
+        std::string path = "textures/aboutUs/";
+        path.append(CCUserDefault::sharedUserDefault()->getStringForKey("AVPreferedLanguage"));
+        
+        auto spriteBckg = SpriteHelper::CreateSpriteWithTextureName(this, 0, "textures/aboutUs/fonC.png");
+		spriteBckg->getTexture()->setAliasTexParameters();
+		spriteBckg->setPosition(ccp(winSize.width * 0.5f, winSize.height * 0.5f));
+        if (CCUserDefault::sharedUserDefault()->getIntegerForKey("AVdeviceType") == 1) {
+            spriteBckg->setScale(0.9f);
+        } else if (CCUserDefault::sharedUserDefault()->getIntegerForKey("AVdeviceType") == 2) {
+            spriteBckg->setScale(0.68f);
+        } else if (CCUserDefault::sharedUserDefault()->getIntegerForKey("AVdeviceType") == 3) {
+            spriteBckg->setScale(0.8f);
+        }
+		auto phebe = SpriteHelper::CreateSpriteWithTextureName(this, 0, "textures/aboutUs/phebe.png");
+		phebe->getTexture()->setAliasTexParameters();
+ 		phebe->setScale(scale);
+		phebe->setPosition(ccp(phebe->Width()/5, phebe->Height()/5));//ccp(locWidth, locHeight));
+
+        auto text = SpriteHelper::CreateSpriteWithTextureName(this, 0, path+"-text.png");
+		text->getTexture()->setAliasTexParameters();
+ 		text->setScale(scale / 1.55);
+        _butPlay = AddCoreButton(this, this, path+"-site.png");
+        _butRate = AddCoreButton(this, this, "textures/aboutUs/cross.png");
+
+        printf("text width = %f", desktopHeight);
+        if (desktopWidth == 768.f || desktopWidth == 1536.f) {
+            text->setPosition(ccp(text->Width() / 5 - 20, 420.f));//text->Width()/5, text->Height()/5));//ccp(locWidth, locHeight));
+            _butPlay->setPosition(ccp(winSize.width*0.7, desktopHeight / 2 - 100));
+            _butPlay->SetScale(scale);
+            
+            _butRate->SetScale(scale);
+            _butRate->setPosition(ccp(desktopWidth / 2 + 170, desktopHeight / 2 + 170));
+
+        } else {
+            if (desktopHeight == 960 || desktopHeight == 480) {
+                text->setPosition(ccp((text->Width() / 5) / 1.2, 380.f));//text->Width()/5, text->Height()/5));//ccp(locWidth, locHeight));
+                
+                _butPlay->setPosition(ccp(winSize.width*0.7, desktopHeight / 2 - 100));
+                _butPlay->SetScale(scale);
+                
+                _butRate->SetScale(scale);
+                _butRate->setPosition(ccp(desktopWidth / 2 + 175, desktopHeight / 2 + 185));
+
+            } else {
+                text->setPosition(ccp((text->Width() / 5) / 1.45, 380.f));//text->Width()/5, text->Height()/5));//ccp(locWidth, locHeight));
+                _butPlay->setPosition(ccp(winSize.width*0.72, desktopHeight / 2 - 200));
+                _butPlay->SetScale(scale / 1.25);
+                
+                _butRate->SetScale(scale);
+                _butRate->setPosition(ccp(desktopWidth / 2 + 90, desktopHeight / 2 + 110));
+
+
+            }
+
+        }
+
+        
+        
+		_layerColor = CCLayerColor::create(ccc4(255, 255, 255, 255 * 0.4f));
+		addChild(_layerColor, -10);
+	}
+    void set_yes_no_dialog_result(unsigned int dialog_id, bool result) {
+        
+    }
+	static ig_interface::Button* AddCoreButton(CCNode* parent, ig_interface::IBtnDelegate* delegate, const string& textureName)
+	{
+		auto button = Button::MakeButtonWithTextures(textureName, textureName, delegate, "");
+		((CCSprite*)button->GetUpSprite())->getTexture()->setAliasTexParameters();
+		((CCSprite*)button->GetDownSprite())->getTexture()->setAliasTexParameters();
+		button->SetScale(0.68f);
+		button->SetButtonDownScale(0.65f);
+		parent->addChild(button, 0);
+		return button;
+	}
+    
+	void SetActive(bool isActive)
+	{
+		if (isActive)
+		{
+			_butPlay->registerWithTouchDispatcher();
+
+		}
+		else
+		{
+			_butPlay->unregisterWithTouchDispatcher();
+		}
+        
+		this->setVisible(isActive);
+	}
+    
+private:
+	virtual void onClickAction(Button* const target) override
+	{
+		if (target == _butPlay)
+		{
+			sk::game_services::open_url(CCUserDefault::sharedUserDefault()->getStringForKey("AVURLNeoninks").c_str());
+//			_parent->Restart(false);
+		} else if (target == _butRate) {
+            _parent->ShowAboutUs(false, false);
+        }
+	}
+    
+	virtual void onTouch(Button* const target, const TouchEvent& evt) override
+	{
+		if (evt.phase == TouchPhase::Began)
+		{
+			SoundManager::Inst().PlaySoundButton();
+		}
+	}
+};
 
 class FlappyMainScreenLayer : public CCNode, public ig_interface::IBtnDelegate
 {
@@ -981,7 +1120,9 @@ private:
 		}
 		else if (target == _butRange)
 		{
-			sk::game_services::open_url(CCUserDefault::sharedUserDefault()->getStringForKey("AVURLNeoninks").c_str());
+            _parent->ShowAboutUs(true, true);
+
+//			sk::game_services::open_url(CCUserDefault::sharedUserDefault()->getStringForKey("AVURLNeoninks").c_str());
 		}
 		else if (target == _butMoreGames)
 		{
@@ -1019,6 +1160,7 @@ FlappyGameplayLayer::FlappyGameplayLayer()
 	_state(FlappyGameplayState::MainMenu),
 	_nodeTutorial(),
 	_nodeGameOver(),
+    _nodeAboutUs(),
 	_nodeMainScreen(),
 	_labelUpperScore(),
 	_labelUpperScoreHeart(),
@@ -1055,6 +1197,10 @@ void FlappyGameplayLayer::OnEnter()
 	_nodeGameOver = SpriteHelper::AddNodeAndRelease(this, 21, new FlappyGameOverLayer(this));
 	_nodeGameOver->Init();
 	_nodeGameOver->SetActive(false);
+
+    _nodeAboutUs = SpriteHelper::AddNodeAndRelease(this, 21, new FlappyAboutUsLayer(this));
+	_nodeAboutUs->Init();
+	_nodeAboutUs->SetActive(false);
 
 	//
 	_nodeMainScreen = SpriteHelper::AddNodeAndRelease(this, 50, new FlappyMainScreenLayer(this));
@@ -1098,6 +1244,22 @@ void FlappyGameplayLayer::Restart(bool isInMainScreen)
 
 		_nodeGameOver->SetActive(false);		
 	}
+}
+
+void FlappyGameplayLayer::ShowAboutUs(bool isActive, bool isInMainScreen)
+{
+    if (isActive) {
+    if (isInMainScreen) {
+        SetState(FlappyGameplayState::MainMenu);
+
+    }
+    _nodeMainScreen->SetActive(false);
+        _nodeGameOver->SetActive(false);
+    _nodeAboutUs->SetActive(isActive);
+    } else {
+        _nodeAboutUs->SetActive(false);
+        _nodeMainScreen->SetActive(true);
+    }
 }
 
 void FlappyGameplayLayer::OnLeave()

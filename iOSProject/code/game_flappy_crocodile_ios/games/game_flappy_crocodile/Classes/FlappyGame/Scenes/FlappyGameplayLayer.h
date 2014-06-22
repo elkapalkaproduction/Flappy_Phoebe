@@ -12,6 +12,7 @@ using namespace cocos2d;
 class BackgroundScroller;
 class FlappyGameOverLayer;
 class FlappyMainScreenLayer;
+class FlappyAboutUsLayer;
 class CCLabelWithShadow;
 
 
@@ -35,6 +36,7 @@ private:
 	FlappyGameplayState::State _state;
 	CCNode* _nodeTutorial;
 	FlappyGameOverLayer* _nodeGameOver;
+    FlappyAboutUsLayer* _nodeAboutUs;
 	FlappyMainScreenLayer* _nodeMainScreen;
 	CCLabelWithShadow* _labelUpperScore;
 	CCSprite* _labelUpperScoreHeart;
@@ -47,6 +49,7 @@ public:
 	void SetState(FlappyGameplayState::State state) { _state = state; }
 	void AddOneScore();
 	void Restart(bool isInMainScreen);
+    void ShowAboutUs(bool isActive, bool isInMainScreen);
 
 private:
 	FlappyGameplayLayer();
