@@ -5,6 +5,7 @@
 #import "Flurry.h"
 #import "TapJoyHandler.h"
 #import "LogoViewController.h"
+#import "GADInterstitial.h"
 
 #ifndef SK_PAID
 #ifdef SK_NO_ADMOB
@@ -346,7 +347,10 @@ void ios_tapjoy_show_interstitial()
 }
 #endif
 
+@interface RootViewController ()
+@property (strong, nonatomic) GADInterstitial *interstitial;
 
+@end
 
 @implementation RootViewController
 
@@ -770,7 +774,10 @@ void ios_tapjoy_show_interstitial()
     self.TapJoy = [TapJoyHandler create:self];
     [self.TapJoy connect];
 #endif
-    
+    self.interstitial = [[GADInterstitial alloc] init];
+    self.interstitial.adUnitID = @"ca-app-pub-1480731978958686/5323976593";
+    [self.interstitial loadRequest:[GADRequest request]];
+
 	[RevMobAds startSessionWithAppID:[NSString stringWithUTF8String:sk::game_services::get_revmob_app_id()]];
 #ifndef SK_NO_ADCOLONY
     NSArray* zoneIDs = [[NSArray alloc] initWithObjects: [NSString stringWithUTF8String:sk::game_services::get_adcolony_zone()], nil];
@@ -1316,7 +1323,11 @@ void ios_tapjoy_show_interstitial()
     // rewardFlag is not used
     
     sk::game_services::log_event("adcolony_video_requested");
+    if ([AdColony zoneStatusForZone:[NSString stringWithUTF8String:sk::game_services::get_adcolony_zone()]] == ADCOLONY_ZONE_STATUS_ACTIVE) {
     [AdColony playVideoAdForZone:[NSString stringWithUTF8String:sk::game_services::get_adcolony_zone()] withDelegate:self withV4VCPrePopup:YES andV4VCPostPopup:YES ];
+    } else {
+        [self.interstitial presentFromRootViewController:self];
+    }
 }
 
 #pragma mark - ADColonyDelegate

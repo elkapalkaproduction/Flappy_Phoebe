@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>095485C6-74DA-49C0-ACF7-891DF99E6E22</string>
+	<key>IDESourceControlProjectName</key>
+	<string>game_flappy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6BB56BE-41AD-484B-AD88-40601723A4CD</key>
+		<string>ssh://github.com/elkapalkaproduction/Flappy_Phoebe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSProject/code/game_flappy_crocodile_ios/games/game_flappy_crocodile/proj.ios/game_flappy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6BB56BE-41AD-484B-AD88-40601723A4CD</key>
+		<string>../../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/elkapalkaproduction/Flappy_Phoebe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6BB56BE-41AD-484B-AD88-40601723A4CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6BB56BE-41AD-484B-AD88-40601723A4CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Flappy_Phoebe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
