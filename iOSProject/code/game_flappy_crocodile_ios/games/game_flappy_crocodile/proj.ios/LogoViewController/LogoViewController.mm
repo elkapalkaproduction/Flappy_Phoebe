@@ -46,6 +46,8 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+
     float timeInterval = 1.f;
     [UIView animateWithDuration:timeInterval delay:timeInterval options:UIViewAnimationOptionCurveEaseIn animations:^{
         _logoImageView.alpha = 1.f;
@@ -57,8 +59,9 @@
          }];
     }];
     
-
-    [super viewDidLoad];
+    AppController *rt = (AppController *)[[UIApplication sharedApplication] delegate];
+    [rt.viewController interstitial];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)push{

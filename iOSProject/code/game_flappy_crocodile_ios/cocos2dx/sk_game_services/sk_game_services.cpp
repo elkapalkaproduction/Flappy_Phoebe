@@ -1252,13 +1252,15 @@ void on_level_ended()
 	if (num_played == levels_per_interstitial())
 	{
 		num_played = 0;
+        return;
 	}
 	else
 	{
 		++num_played;
-		return;
 	}
-	
+	ios_show_cb();
+    return;
+    
 	static int ad_type = 0;
 	static int num_video_ad_per_interstitial = 3; // TODO : we can add function later
 	

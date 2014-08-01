@@ -1283,6 +1283,7 @@ void FlappyGameplayLayer::update(float dt)
 			_nodeGameOver->SetActive(true);
 			_labelUpperScore->setVisible(false);
 			_labelUpperScoreHeart->setVisible(false);
+            sk::game_services::on_level_ended();
 #ifndef SK_PAID
             //sk::game_services::show_revmob_banner(false);
 
