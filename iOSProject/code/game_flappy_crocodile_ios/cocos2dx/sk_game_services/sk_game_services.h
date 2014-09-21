@@ -4,8 +4,10 @@
 #define _SK_GAME_SERVICES__
 
 #define SK_NO_PLAYHEAVEN    // if enabled, Playheaven is not used
-//#define SK_NO_ADMOB         // if enabled, it uses iAD only
-//#define SK_NO_ADCOLONY      // if enabled, adcolony ads and TV buttons will not work
+#ifndef FreeVersion
+#define SK_NO_ADMOB         // if enabled, it uses iAD only
+#define SK_NO_ADCOLONY      // if enabled, adcolony ads and TV buttons will not work
+#endif
 //#define SK_DISABLE_IN_APPS  // if enabled, no in-apps will
 #define SK_NO_TAPJOY
 

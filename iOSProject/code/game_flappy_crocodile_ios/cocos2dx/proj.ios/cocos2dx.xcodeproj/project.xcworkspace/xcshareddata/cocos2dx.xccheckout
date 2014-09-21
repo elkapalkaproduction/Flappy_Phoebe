@@ -5,23 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>095485C6-74DA-49C0-ACF7-891DF99E6E22</string>
+	<string>C4912D92-B6DA-4F2F-8447-8555DC964F9B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>game_flappy</string>
+	<string>cocos2dx</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>022F92448F5CFA7A8513F8AEFA444833040C3F9D</key>
-		<string>ssh://github.com/elkapalkaproduction/Flappy_Phoebe.git</string>
+		<string>github.com:elkapalkaproduction/Flappy_Phoebe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOSProject/code/game_flappy_crocodile_ios/games/game_flappy_crocodile/proj.ios/game_flappy.xcodeproj/project.xcworkspace</string>
+	<string>iOSProject/code/game_flappy_crocodile_ios/cocos2dx/proj.ios/cocos2dx.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>022F92448F5CFA7A8513F8AEFA444833040C3F9D</key>
-		<string>../../../../../../../..</string>
+		<string>../../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/elkapalkaproduction/Flappy_Phoebe.git</string>
+	<string>github.com:elkapalkaproduction/Flappy_Phoebe.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

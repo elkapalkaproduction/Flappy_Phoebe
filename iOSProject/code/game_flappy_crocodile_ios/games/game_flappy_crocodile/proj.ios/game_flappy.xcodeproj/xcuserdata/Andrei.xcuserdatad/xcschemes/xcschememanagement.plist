@@ -7,22 +7,27 @@
 		<key>GameFree.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>0</integer>
 		</dict>
 		<key>GameFreeHD.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>2</integer>
 		</dict>
 		<key>GamePaid.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>GamePaidHD.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>3</integer>
+		</dict>
+		<key>NewGamePaid.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>253154AF173E6ADA00452B4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75F87EC019CF72A900331D5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

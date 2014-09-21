@@ -5,7 +5,9 @@
 #import "Flurry.h"
 #import "TapJoyHandler.h"
 #import "LogoViewController.h"
+#ifdef FreeVersion
 #import "GADInterstitial.h"
+#endif
 #import "AppController.h"
 #ifndef SK_PAID
 #ifdef SK_NO_ADMOB
@@ -13,9 +15,11 @@
 	ADBannerView *adView;
 	bool bannerIsVisible = false;
 #else
+#ifdef FreeVersion
 	#import "GADAdSize.h"
 	#import "GADBannerView.h"
 	GADBannerView *bannerView_;
+#endif
 #endif // #ifdef SK_NO_ADMOB
 #endif // #ifndef SK_PAID
 
@@ -383,12 +387,14 @@ void ios_tapjoy_show_interstitial()
 	if (sk::game_services::DIALOG_TYPE_YES_NO == alertView.tag)
 	{
         if (buttonIndex == 1){
+#ifdef FreeVersion
             RevMobAdLink *link = [[RevMobAds session] adLink];
             [link loadAd];
             if (link) {
                 [link openLink];
                  
             }
+#endif
         }
 	}
 }
@@ -459,7 +465,7 @@ void ios_tapjoy_show_interstitial()
 
 - (void)createAdBannerView
 {
-	
+#ifdef FreeVersion
 #ifndef SK_PAID
 #ifdef SK_NO_ADMOB
 	adView = [[ADBannerView alloc] initWithFrame:CGRectZero];
@@ -482,6 +488,7 @@ void ios_tapjoy_show_interstitial()
 	bannerView_.delegate = self;
 #endif // #ifdef SK_NO_ADMOB
 #endif // #ifndef SK_PAID
+#endif
 }
 
 #ifndef SK_PAID
@@ -501,6 +508,7 @@ void ios_tapjoy_show_interstitial()
 
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
+#ifdef FreeVersion
 	if (!bannerIsVisible)
 	{
 		[UIView beginAnimations:@"animateAdBannerOn" context:NULL];
@@ -508,10 +516,12 @@ void ios_tapjoy_show_interstitial()
 		[UIView commitAnimations];
 		bannerIsVisible = true;
 	}
+#endif
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
 {
+#ifdef FreeVersion
 	if (bannerIsVisible)
 	{
 		[UIView beginAnimations:@"animateAdBannerOff" context:NULL];
@@ -519,6 +529,7 @@ void ios_tapjoy_show_interstitial()
 		[UIView commitAnimations];
 		bannerIsVisible = false;
 	}
+#endif
 }
 
 #else
@@ -693,15 +704,19 @@ void ios_tapjoy_show_interstitial()
 	{
 		return;
 	}*/
+#ifdef FreeVersion
 	Chartboost *cbb = [Chartboost sharedChartboost];
 	[cbb showInterstitial];
+#endif
 }
 
 -(void) more_games
-{	
+{
+#ifdef FreeVersion
+
 	Chartboost *cbb = [Chartboost sharedChartboost];    
     [cbb showMoreApps];
-    
+#endif
 	/*if (cb_cached_more_games)
 	{
 		[cbb showMoreApps];
@@ -736,11 +751,14 @@ void ios_tapjoy_show_interstitial()
 	ad.delegate = self;
 	[ad loadAd];
 	[ad showAd];*/
+#ifdef FreeVersion
     [[RevMobAds session] showFullscreen];
+#endif
 }
 
 - (void) rm_baner:(bool)shown
 {
+#ifdef FreeVersion
     RevMobAds *revMobAds = [RevMobAds session];
     
     /*if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
@@ -753,6 +771,7 @@ void ios_tapjoy_show_interstitial()
         [revMobAds showBanner];
     else
         [revMobAds hideBanner];
+#endif
 }
 
 - (void)noad
@@ -773,9 +792,10 @@ void ios_tapjoy_show_interstitial()
     self.TapJoy = [TapJoyHandler create:self];
     [self.TapJoy connect];
 #endif
+#ifdef FreeVersion
     [self interstitial];
-    
 	[RevMobAds startSessionWithAppID:[NSString stringWithUTF8String:sk::game_services::get_revmob_app_id()]];
+#endif
 #ifndef SK_NO_ADCOLONY
     NSArray* zoneIDs = [[NSArray alloc] initWithObjects: [NSString stringWithUTF8String:sk::game_services::get_adcolony_zone()], nil];
     
@@ -1257,8 +1277,10 @@ void ios_tapjoy_show_interstitial()
 -(void)startCocos{
 #ifndef SK_PAID
     if (!sk::game_services::is_ads_removed()) {
+#ifdef FreeVersion
         [[RevMobAds session] showFullscreen];
         [self cb];
+#endif
     }
 #endif
     [logo.view removeFromSuperview];
@@ -1316,12 +1338,13 @@ void ios_tapjoy_show_interstitial()
     // e.g. self.myOutlet = nil;
 }
 
-#ifndef SK_NO_ADCOLONY
 
 #pragma mark - ADColony
 
 - (void) adc:(BOOL)rewardFlag
 {
+#ifndef SK_NO_ADCOLONY
+
     // rewardFlag is not used
     
     sk::game_services::log_event("adcolony_video_requested");
@@ -1330,8 +1353,9 @@ void ios_tapjoy_show_interstitial()
     } else {
         [self.interstitial presentFromRootViewController:self];
     }
+#endif
 }
-
+#ifdef FreeVersion
 - (GADInterstitial *)interstitial {
     if (!_interstitial) {
         _interstitial = [[GADInterstitial alloc] init];
@@ -1341,6 +1365,8 @@ void ios_tapjoy_show_interstitial()
     
     return _interstitial;
 }
+#endif
+#ifndef SK_NO_ADCOLONY
 
 #pragma mark - ADColonyDelegate
 

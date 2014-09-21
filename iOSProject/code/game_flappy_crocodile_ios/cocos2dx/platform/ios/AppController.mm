@@ -148,7 +148,7 @@ static AppDelegate s_sharedApplication;
     cocos2d::CCDirector::sharedDirector()->resume();
 	[SHKFacebook handleDidBecomeActive];
 	
-	
+#ifdef FreeVersion
 	Chartboost *cb = [Chartboost sharedChartboost];
 	
 	cb.appId        = [NSString stringWithUTF8String:sk::game_services::get_cb_app_id()];
@@ -158,9 +158,10 @@ static AppDelegate s_sharedApplication;
 	[cb startSession];
 	[cb cacheInterstitial];
 	[cb cacheMoreApps];
-    
     NSString *revmobID = [NSString stringWithUTF8String:sk::game_services::get_revmob_app_id()];
     [RevMobAds startSessionWithAppID:revmobID];
+#endif
+
     [ASKPManager requestCommandsWithTag:@"Open App"];
 	
 //#ifndef SK_PAID

@@ -1045,6 +1045,337 @@
 		75A28C2318F1F85F00A6C0B2 /* game_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75A28C2118F1F85F00A6C0B2 /* game_music.wav */; };
 		75A28C2418F1F85F00A6C0B2 /* game_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75A28C2118F1F85F00A6C0B2 /* game_music.wav */; };
 		75A28C2518F1F85F00A6C0B2 /* game_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75A28C2118F1F85F00A6C0B2 /* game_music.wav */; };
+		75F87EC819CF72A900331D5A /* logo_rus.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A0979718EB1D5D0009EA0E /* logo_rus.png */; };
+		75F87EC919CF72A900331D5A /* ShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 25ABE67116F5F1A00054E612 /* ShareKit.bundle */; };
+		75F87ECA19CF72A900331D5A /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACADD18F7B03D00E682B2 /* Icon120.png */; };
+		75F87ECB19CF72A900331D5A /* Icon50.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACB2D18F7B0FA00E682B2 /* Icon50.png */; };
+		75F87ECC19CF72A900331D5A /* CommonClasses.vcxproj.user in Resources */ = {isa = PBXBuildFile; fileRef = CEB9194518A0CA5C00D6AC22 /* CommonClasses.vcxproj.user */; };
+		75F87ECD19CF72A900331D5A /* Icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACADA18F7B03D00E682B2 /* Icon76.png */; };
+		75F87ECE19CF72A900331D5A /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 15A3D9691682F7F9002FB0C5 /* CMakeLists.txt */; };
+		75F87ECF19CF72A900331D5A /* CommonClasses.vcxproj.filters in Resources */ = {isa = PBXBuildFile; fileRef = CEB9194418A0CA5C00D6AC22 /* CommonClasses.vcxproj.filters */; };
+		75F87ED019CF72A900331D5A /* Icon100.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACADC18F7B03D00E682B2 /* Icon100.png */; };
+		75F87ED119CF72A900331D5A /* Icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACADB18F7B03D00E682B2 /* Icon80.png */; };
+		75F87ED219CF72A900331D5A /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75449DF118EFFFB30075DC0A /* game_music.mp3 */; };
+		75F87ED319CF72A900331D5A /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 25322FBA16F61B970046D233 /* assets */; };
+		75F87ED419CF72A900331D5A /* game_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 75A28C2118F1F85F00A6C0B2 /* game_music.wav */; };
+		75F87ED519CF72A900331D5A /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F80314FE18A16307005755E9 /* TapjoyResources.bundle */; };
+		75F87ED619CF72A900331D5A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 25172BFE17060B8400CC3505 /* Icon-72.png */; };
+		75F87ED719CF72A900331D5A /* LogoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A0976418EB1CED0009EA0E /* LogoViewController.xib */; };
+		75F87ED819CF72A900331D5A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25172BFF17060B8400CC3505 /* Icon-72@2x.png */; };
+		75F87ED919CF72A900331D5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7536827618F74593004EE5B9 /* Default-568h@2x.png */; };
+		75F87EDA19CF72A900331D5A /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACAD718F7B03D00E682B2 /* Icon29.png */; };
+		75F87EDB19CF72A900331D5A /* all_source_files_from_path.mk in Resources */ = {isa = PBXBuildFile; fileRef = CEB9187318A0CA5B00D6AC22 /* all_source_files_from_path.mk */; };
+		75F87EDC19CF72A900331D5A /* Icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACAD918F7B03D00E682B2 /* Icon58.png */; };
+		75F87EDD19CF72A900331D5A /* Icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACADE18F7B03D00E682B2 /* Icon144.png */; };
+		75F87EDE19CF72A900331D5A /* LogoViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A0976518EB1CED0009EA0E /* LogoViewController~ipad.xib */; };
+		75F87EDF19CF72A900331D5A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25172C0017060B8400CC3505 /* Icon.png */; };
+		75F87EE019CF72A900331D5A /* Icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACADF18F7B03D00E682B2 /* Icon152.png */; };
+		75F87EE119CF72A900331D5A /* Icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AACAD818F7B03D00E682B2 /* Icon40.png */; };
+		75F87EE219CF72A900331D5A /* logo_eng.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A0979618EB1D5D0009EA0E /* logo_eng.png */; };
+		75F87EE319CF72A900331D5A /* CommonClasses.vcxproj in Resources */ = {isa = PBXBuildFile; fileRef = CEB9194318A0CA5C00D6AC22 /* CommonClasses.vcxproj */; };
+		75F87EE419CF72A900331D5A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25172C0117060B8400CC3505 /* Icon@2x.png */; };
+		75F87EE619CF72A900331D5A /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88B1682F7D5002FB0C5 /* b2BroadPhase.cpp */; };
+		75F87EE719CF72A900331D5A /* NodeHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189118A0CA5B00D6AC22 /* NodeHelper.cpp */; };
+		75F87EE819CF72A900331D5A /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88D1682F7D5002FB0C5 /* b2CollideCircle.cpp */; };
+		75F87EE919CF72A900331D5A /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88E1682F7D5002FB0C5 /* b2CollideEdge.cpp */; };
+		75F87EEA19CF72A900331D5A /* InputHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9188418A0CA5B00D6AC22 /* InputHelper.cpp */; };
+		75F87EEB19CF72A900331D5A /* b2CollidePolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D88F1682F7D5002FB0C5 /* b2CollidePolygon.cpp */; };
+		75F87EEC19CF72A900331D5A /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8901682F7D5002FB0C5 /* b2Collision.cpp */; };
+		75F87EED19CF72A900331D5A /* SKGameMetadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB915F918A0C6BA00D6AC22 /* SKGameMetadata.cpp */; };
+		75F87EEE19CF72A900331D5A /* effect_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918AE18A0CA5B00D6AC22 /* effect_manager.cpp */; };
+		75F87EEF19CF72A900331D5A /* b2Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8921682F7D5002FB0C5 /* b2Distance.cpp */; };
+		75F87EF019CF72A900331D5A /* PHAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAE518F736E2003A9765 /* PHAPIRequest.m */; };
+		75F87EF119CF72A900331D5A /* PHStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1918F736E2003A9765 /* PHStringUtil.m */; };
+		75F87EF219CF72A900331D5A /* b2DynamicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8941682F7D5002FB0C5 /* b2DynamicTree.cpp */; };
+		75F87EF319CF72A900331D5A /* b2TimeOfImpact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8961682F7D5002FB0C5 /* b2TimeOfImpact.cpp */; };
+		75F87EF419CF72A900331D5A /* b2ChainShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8991682F7D5002FB0C5 /* b2ChainShape.cpp */; };
+		75F87EF519CF72A900331D5A /* PHContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAED18F736E2003A9765 /* PHContentView.m */; };
+		75F87EF619CF72A900331D5A /* b2CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D89B1682F7D5002FB0C5 /* b2CircleShape.cpp */; };
+		75F87EF719CF72A900331D5A /* b2EdgeShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D89D1682F7D5002FB0C5 /* b2EdgeShape.cpp */; };
+		75F87EF819CF72A900331D5A /* sharing_service.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918E318A0CA5C00D6AC22 /* sharing_service.cpp */; };
+		75F87EF919CF72A900331D5A /* b2PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D89F1682F7D5002FB0C5 /* b2PolygonShape.cpp */; };
+		75F87EFA19CF72A900331D5A /* b2BlockAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8A31682F7D5002FB0C5 /* b2BlockAllocator.cpp */; };
+		75F87EFB19CF72A900331D5A /* b2Draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8A51682F7D5002FB0C5 /* b2Draw.cpp */; };
+		75F87EFC19CF72A900331D5A /* MathHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9183218A0CA5B00D6AC22 /* MathHelper.cpp */; };
+		75F87EFD19CF72A900331D5A /* b2Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8A81682F7D5002FB0C5 /* b2Math.cpp */; };
+		75F87EFE19CF72A900331D5A /* b2Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8AA1682F7D5002FB0C5 /* b2Settings.cpp */; };
+		75F87EFF19CF72A900331D5A /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8AC1682F7D5002FB0C5 /* b2StackAllocator.cpp */; };
+		75F87F0019CF72A900331D5A /* CCCallLambda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9184F18A0CA5B00D6AC22 /* CCCallLambda.cpp */; };
+		75F87F0119CF72A900331D5A /* TSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554807418DCDEE200A648EF /* TSConfig.m */; };
+		75F87F0219CF72A900331D5A /* b2Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8AE1682F7D5002FB0C5 /* b2Timer.cpp */; };
+		75F87F0319CF72A900331D5A /* ui_scrolling_sprite_field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918D418A0CA5C00D6AC22 /* ui_scrolling_sprite_field.cpp */; };
+		75F87F0419CF72A900331D5A /* PHConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAE718F736E2003A9765 /* PHConnectionManager.m */; };
+		75F87F0519CF72A900331D5A /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8B11682F7D5002FB0C5 /* b2Body.cpp */; };
+		75F87F0619CF72A900331D5A /* scene_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918C018A0CA5B00D6AC22 /* scene_manager.cpp */; };
+		75F87F0719CF72A900331D5A /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8B31682F7D5002FB0C5 /* b2ContactManager.cpp */; };
+		75F87F0819CF72A900331D5A /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8B51682F7D5002FB0C5 /* b2Fixture.cpp */; };
+		75F87F0919CF72A900331D5A /* SceneBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189418A0CA5B00D6AC22 /* SceneBase.cpp */; };
+		75F87F0A19CF72A900331D5A /* TSHit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554807F18DCDEE200A648EF /* TSHit.m */; };
+		75F87F0B19CF72A900331D5A /* b2Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8B71682F7D5002FB0C5 /* b2Island.cpp */; };
+		75F87F0C19CF72A900331D5A /* b2World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8BA1682F7D5002FB0C5 /* b2World.cpp */; };
+		75F87F0D19CF72A900331D5A /* FlappyGameplayLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB915F718A0C6BA00D6AC22 /* FlappyGameplayLayer.cpp */; };
+		75F87F0E19CF72A900331D5A /* b2WorldCallbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8BC1682F7D5002FB0C5 /* b2WorldCallbacks.cpp */; };
+		75F87F0F19CF72A900331D5A /* b2ChainAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8BF1682F7D5002FB0C5 /* b2ChainAndCircleContact.cpp */; };
+		75F87F1019CF72A900331D5A /* ScreenLogLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189A18A0CA5B00D6AC22 /* ScreenLogLayer.cpp */; };
+		75F87F1119CF72A900331D5A /* b2ChainAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8C11682F7D5002FB0C5 /* b2ChainAndPolygonContact.cpp */; };
+		75F87F1219CF72A900331D5A /* CCMessageBoxYesNo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186B18A0CA5B00D6AC22 /* CCMessageBoxYesNo.cpp */; };
+		75F87F1319CF72A900331D5A /* TSPlatformImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554808518DCDEE200A648EF /* TSPlatformImpl.m */; };
+		75F87F1419CF72A900331D5A /* CCLabelHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186718A0CA5B00D6AC22 /* CCLabelHelper.cpp */; };
+		75F87F1519CF72A900331D5A /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8C31682F7D5002FB0C5 /* b2CircleContact.cpp */; };
+		75F87F1619CF72A900331D5A /* b2Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8C51682F7D5002FB0C5 /* b2Contact.cpp */; };
+		75F87F1719CF72A900331D5A /* b2ContactSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8C71682F7D5002FB0C5 /* b2ContactSolver.cpp */; };
+		75F87F1819CF72A900331D5A /* b2EdgeAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8C91682F7D5002FB0C5 /* b2EdgeAndCircleContact.cpp */; };
+		75F87F1919CF72A900331D5A /* NodeEffectRotatingWithAngles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185E18A0CA5B00D6AC22 /* NodeEffectRotatingWithAngles.cpp */; };
+		75F87F1A19CF72A900331D5A /* ObserverEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9183818A0CA5B00D6AC22 /* ObserverEvent.cpp */; };
+		75F87F1B19CF72A900331D5A /* b2EdgeAndPolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8CB1682F7D5002FB0C5 /* b2EdgeAndPolygonContact.cpp */; };
+		75F87F1C19CF72A900331D5A /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8CD1682F7D5002FB0C5 /* b2PolygonAndCircleContact.cpp */; };
+		75F87F1D19CF72A900331D5A /* PHPublisherIAPTrackingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0318F736E2003A9765 /* PHPublisherIAPTrackingRequest.m */; };
+		75F87F1E19CF72A900331D5A /* b2PolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8CF1682F7D5002FB0C5 /* b2PolygonContact.cpp */; };
+		75F87F1F19CF72A900331D5A /* NodeEffectButtonScaleQuarter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185518A0CA5B00D6AC22 /* NodeEffectButtonScaleQuarter.cpp */; };
+		75F87F2019CF72A900331D5A /* b2DistanceJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8D21682F7D5002FB0C5 /* b2DistanceJoint.cpp */; };
+		75F87F2119CF72A900331D5A /* b2FrictionJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8D41682F7D5002FB0C5 /* b2FrictionJoint.cpp */; };
+		75F87F2219CF72A900331D5A /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8D61682F7D5002FB0C5 /* b2GearJoint.cpp */; };
+		75F87F2319CF72A900331D5A /* b2Joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8D81682F7D5002FB0C5 /* b2Joint.cpp */; };
+		75F87F2419CF72A900331D5A /* b2MouseJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8DA1682F7D5002FB0C5 /* b2MouseJoint.cpp */; };
+		75F87F2519CF72A900331D5A /* b2PrismaticJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8DC1682F7D5002FB0C5 /* b2PrismaticJoint.cpp */; };
+		75F87F2619CF72A900331D5A /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8DE1682F7D5002FB0C5 /* b2PulleyJoint.cpp */; };
+		75F87F2719CF72A900331D5A /* EncodingHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9182C18A0CA5B00D6AC22 /* EncodingHelper.cpp */; };
+		75F87F2819CF72A900331D5A /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8E01682F7D5002FB0C5 /* b2RevoluteJoint.cpp */; };
+		75F87F2919CF72A900331D5A /* TSAppEventSourceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554807218DCDEE200A648EF /* TSAppEventSourceImpl.m */; };
+		75F87F2A19CF72A900331D5A /* b2RopeJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8E21682F7D5002FB0C5 /* b2RopeJoint.cpp */; };
+		75F87F2B19CF72A900331D5A /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8E41682F7D5002FB0C5 /* b2WeldJoint.cpp */; };
+		75F87F2C19CF72A900331D5A /* StringHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9184318A0CA5B00D6AC22 /* StringHelper.cpp */; };
+		75F87F2D19CF72A900331D5A /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8E61682F7D5002FB0C5 /* b2WheelJoint.cpp */; };
+		75F87F2E19CF72A900331D5A /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D8FC1682F7D5002FB0C5 /* b2Rope.cpp */; };
+		75F87F2F19CF72A900331D5A /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9681682F7F9002FB0C5 /* chipmunk.c */; };
+		75F87F3019CF72A900331D5A /* NSObject+QueryComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAE218F736E2003A9765 /* NSObject+QueryComponents.m */; };
+		75F87F3119CF72A900331D5A /* cpConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D96B1682F7F9002FB0C5 /* cpConstraint.c */; };
+		75F87F3219CF72A900331D5A /* CCLabelWithShadow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186918A0CA5B00D6AC22 /* CCLabelWithShadow.cpp */; };
+		75F87F3319CF72A900331D5A /* cpDampedRotarySpring.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D96C1682F7F9002FB0C5 /* cpDampedRotarySpring.c */; };
+		75F87F3419CF72A900331D5A /* cpDampedSpring.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D96D1682F7F9002FB0C5 /* cpDampedSpring.c */; };
+		75F87F3519CF72A900331D5A /* cpGearJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D96E1682F7F9002FB0C5 /* cpGearJoint.c */; };
+		75F87F3619CF72A900331D5A /* cpGrooveJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D96F1682F7F9002FB0C5 /* cpGrooveJoint.c */; };
+		75F87F3719CF72A900331D5A /* MoveToWithEasing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185318A0CA5B00D6AC22 /* MoveToWithEasing.cpp */; };
+		75F87F3819CF72A900331D5A /* PHNotificationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAFC18F736E2003A9765 /* PHNotificationRenderer.m */; };
+		75F87F3919CF72A900331D5A /* cpPinJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9701682F7F9002FB0C5 /* cpPinJoint.c */; };
+		75F87F3A19CF72A900331D5A /* UIDevice+HardwareString.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB2018F736E2003A9765 /* UIDevice+HardwareString.m */; };
+		75F87F3B19CF72A900331D5A /* ig_easing_curves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918DD18A0CA5C00D6AC22 /* ig_easing_curves.cpp */; };
+		75F87F3C19CF72A900331D5A /* cpPivotJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9711682F7F9002FB0C5 /* cpPivotJoint.c */; };
+		75F87F3D19CF72A900331D5A /* cpRatchetJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9721682F7F9002FB0C5 /* cpRatchetJoint.c */; };
+		75F87F3E19CF72A900331D5A /* cpRotaryLimitJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9731682F7F9002FB0C5 /* cpRotaryLimitJoint.c */; };
+		75F87F3F19CF72A900331D5A /* cpSimpleMotor.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9741682F7F9002FB0C5 /* cpSimpleMotor.c */; };
+		75F87F4019CF72A900331D5A /* NodeEffectQuarterRotating.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185C18A0CA5B00D6AC22 /* NodeEffectQuarterRotating.cpp */; };
+		75F87F4119CF72A900331D5A /* ScreenViewHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189E18A0CA5B00D6AC22 /* ScreenViewHelper.cpp */; };
+		75F87F4219CF72A900331D5A /* ui_button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918C618A0CA5B00D6AC22 /* ui_button.cpp */; };
+		75F87F4319CF72A900331D5A /* cpSlideJoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9751682F7F9002FB0C5 /* cpSlideJoint.c */; };
+		75F87F4419CF72A900331D5A /* cpArbiter.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9761682F7F9002FB0C5 /* cpArbiter.c */; };
+		75F87F4519CF72A900331D5A /* cpArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9771682F7F9002FB0C5 /* cpArray.c */; };
+		75F87F4619CF72A900331D5A /* NodeEffectCirclePosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185718A0CA5B00D6AC22 /* NodeEffectCirclePosition.cpp */; };
+		75F87F4719CF72A900331D5A /* cpBB.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9781682F7F9002FB0C5 /* cpBB.c */; };
+		75F87F4819CF72A900331D5A /* cpBBTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9791682F7F9002FB0C5 /* cpBBTree.c */; };
+		75F87F4919CF72A900331D5A /* cpBody.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D97A1682F7F9002FB0C5 /* cpBody.c */; };
+		75F87F4A19CF72A900331D5A /* cpCollision.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D97B1682F7F9002FB0C5 /* cpCollision.c */; };
+		75F87F4B19CF72A900331D5A /* PHReward.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1518F736E2003A9765 /* PHReward.m */; };
+		75F87F4C19CF72A900331D5A /* TSCoreListenerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554807918DCDEE200A648EF /* TSCoreListenerImpl.m */; };
+		75F87F4D19CF72A900331D5A /* cpHashSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D97C1682F7F9002FB0C5 /* cpHashSet.c */; };
+		75F87F4E19CF72A900331D5A /* NodeEffectWithEasingBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186018A0CA5B00D6AC22 /* NodeEffectWithEasingBase.cpp */; };
+		75F87F4F19CF72A900331D5A /* cpPolyShape.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D97D1682F7F9002FB0C5 /* cpPolyShape.c */; };
+		75F87F5019CF72A900331D5A /* cpShape.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D97E1682F7F9002FB0C5 /* cpShape.c */; };
+		75F87F5119CF72A900331D5A /* cpSpace.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D97F1682F7F9002FB0C5 /* cpSpace.c */; };
+		75F87F5219CF72A900331D5A /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB914CE18A0C6B900D6AC22 /* AppDelegate.cpp */; };
+		75F87F5319CF72A900331D5A /* cpSpaceComponent.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9801682F7F9002FB0C5 /* cpSpaceComponent.c */; };
+		75F87F5419CF72A900331D5A /* PHError.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAEF18F736E2003A9765 /* PHError.m */; };
+		75F87F5519CF72A900331D5A /* cpSpaceHash.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9811682F7F9002FB0C5 /* cpSpaceHash.c */; };
+		75F87F5619CF72A900331D5A /* cpSpaceQuery.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9821682F7F9002FB0C5 /* cpSpaceQuery.c */; };
+		75F87F5719CF72A900331D5A /* cpSpaceStep.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9831682F7F9002FB0C5 /* cpSpaceStep.c */; };
+		75F87F5819CF72A900331D5A /* cpSpatialIndex.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9841682F7F9002FB0C5 /* cpSpatialIndex.c */; };
+		75F87F5919CF72A900331D5A /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9851682F7F9002FB0C5 /* cpSweep1D.c */; };
+		75F87F5A19CF72A900331D5A /* PHPublisherMetadataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0518F736E2003A9765 /* PHPublisherMetadataRequest.m */; };
+		75F87F5B19CF72A900331D5A /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9861682F7F9002FB0C5 /* cpVect.c */; };
+		75F87F5C19CF72A900331D5A /* GeometryHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9188218A0CA5B00D6AC22 /* GeometryHelper.cpp */; };
+		75F87F5D19CF72A900331D5A /* PHNotificationBadgeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAFA18F736E2003A9765 /* PHNotificationBadgeRenderer.m */; };
+		75F87F5E19CF72A900331D5A /* ScreenBlurrer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189818A0CA5B00D6AC22 /* ScreenBlurrer.cpp */; };
+		75F87F5F19CF72A900331D5A /* PHPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0B18F736E2003A9765 /* PHPurchase.m */; };
+		75F87F6019CF72A900331D5A /* ui_scrolling_backdrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918D018A0CA5C00D6AC22 /* ui_scrolling_backdrop.cpp */; };
+		75F87F6119CF72A900331D5A /* ui_fullscreen_quad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918CA18A0CA5C00D6AC22 /* ui_fullscreen_quad.cpp */; };
+		75F87F6219CF72A900331D5A /* TouchableLayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186218A0CA5B00D6AC22 /* TouchableLayerBase.cpp */; };
+		75F87F6319CF72A900331D5A /* CCBAnimationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9B61682F826002FB0C5 /* CCBAnimationManager.cpp */; };
+		75F87F6419CF72A900331D5A /* CCBFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9B81682F826002FB0C5 /* CCBFileLoader.cpp */; };
+		75F87F6519CF72A900331D5A /* PHNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAFE18F736E2003A9765 /* PHNotificationView.m */; };
+		75F87F6619CF72A900331D5A /* node_effect_sine_wave_motion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918B618A0CA5B00D6AC22 /* node_effect_sine_wave_motion.cpp */; };
+		75F87F6719CF72A900331D5A /* PHKontagentDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAF618F736E2003A9765 /* PHKontagentDataAccessor.m */; };
+		75F87F6819CF72A900331D5A /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB9C18F736EB003A9765 /* SBJsonBase.m */; };
+		75F87F6919CF72A900331D5A /* CCBKeyframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9BA1682F826002FB0C5 /* CCBKeyframe.cpp */; };
+		75F87F6A19CF72A900331D5A /* TSResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554808718DCDEE200A648EF /* TSResponse.m */; };
+		75F87F6B19CF72A900331D5A /* CCBReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9BD1682F826002FB0C5 /* CCBReader.cpp */; };
+		75F87F6C19CF72A900331D5A /* CCBSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9C01682F826002FB0C5 /* CCBSequence.cpp */; };
+		75F87F6D19CF72A900331D5A /* CCBSequenceProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9C21682F826002FB0C5 /* CCBSequenceProperty.cpp */; };
+		75F87F6E19CF72A900331D5A /* CCBValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9C41682F826002FB0C5 /* CCBValue.cpp */; };
+		75F87F6F19CF72A900331D5A /* CCControlButtonLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9C61682F826002FB0C5 /* CCControlButtonLoader.cpp */; };
+		75F87F7019CF72A900331D5A /* PHPublisherContentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0118F736E2003A9765 /* PHPublisherContentRequest.m */; };
+		75F87F7119CF72A900331D5A /* CCControlLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9C81682F826002FB0C5 /* CCControlLoader.cpp */; };
+		75F87F7219CF72A900331D5A /* ig_utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918E118A0CA5C00D6AC22 /* ig_utilities.cpp */; };
+		75F87F7319CF72A900331D5A /* CCData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9CA1682F826002FB0C5 /* CCData.cpp */; };
+		75F87F7419CF72A900331D5A /* CCOpacityTo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185118A0CA5B00D6AC22 /* CCOpacityTo.cpp */; };
+		75F87F7519CF72A900331D5A /* node_effect_button_scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918B018A0CA5B00D6AC22 /* node_effect_button_scale.cpp */; };
+		75F87F7619CF72A900331D5A /* ui_toggle_button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918D618A0CA5C00D6AC22 /* ui_toggle_button.cpp */; };
+		75F87F7719CF72A900331D5A /* CCLabelBMFontLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9CC1682F826002FB0C5 /* CCLabelBMFontLoader.cpp */; };
+		75F87F7819CF72A900331D5A /* CCLabelTTFLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9CE1682F826002FB0C5 /* CCLabelTTFLoader.cpp */; };
+		75F87F7919CF72A900331D5A /* PHURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1D18F736E2003A9765 /* PHURLLoader.m */; };
+		75F87F7A19CF72A900331D5A /* ui_scrolling_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918D218A0CA5C00D6AC22 /* ui_scrolling_list.cpp */; };
+		75F87F7B19CF72A900331D5A /* CCLayerColorLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9D01682F826002FB0C5 /* CCLayerColorLoader.cpp */; };
+		75F87F7C19CF72A900331D5A /* CCLayerGradientLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9D21682F826002FB0C5 /* CCLayerGradientLoader.cpp */; };
+		75F87F7D19CF72A900331D5A /* CCLayerLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9D41682F826002FB0C5 /* CCLayerLoader.cpp */; };
+		75F87F7E19CF72A900331D5A /* IdentityObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9182F18A0CA5B00D6AC22 /* IdentityObject.cpp */; };
+		75F87F7F19CF72A900331D5A /* CCMenuItemImageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9D61682F826002FB0C5 /* CCMenuItemImageLoader.cpp */; };
+		75F87F8019CF72A900331D5A /* CorePlatformAll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9187918A0CA5B00D6AC22 /* CorePlatformAll.cpp */; };
+		75F87F8119CF72A900331D5A /* CCMenuItemLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9D81682F826002FB0C5 /* CCMenuItemLoader.cpp */; };
+		75F87F8219CF72A900331D5A /* CCNode+CCBRelativePositioning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9DB1682F826002FB0C5 /* CCNode+CCBRelativePositioning.cpp */; };
+		75F87F8319CF72A900331D5A /* CCNodeLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9DD1682F826002FB0C5 /* CCNodeLoader.cpp */; };
+		75F87F8419CF72A900331D5A /* ui_label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918CC18A0CA5C00D6AC22 /* ui_label.cpp */; };
+		75F87F8519CF72A900331D5A /* CCNodeLoaderLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9DF1682F826002FB0C5 /* CCNodeLoaderLibrary.cpp */; };
+		75F87F8619CF72A900331D5A /* CCParticleSystemQuadLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9E21682F826002FB0C5 /* CCParticleSystemQuadLoader.cpp */; };
+		75F87F8719CF72A900331D5A /* PHContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAEB18F736E2003A9765 /* PHContent.m */; };
+		75F87F8819CF72A900331D5A /* PHStoreProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1718F736E2003A9765 /* PHStoreProductViewController.m */; };
+		75F87F8919CF72A900331D5A /* node_effect_move_to.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918B418A0CA5B00D6AC22 /* node_effect_move_to.cpp */; };
+		75F87F8A19CF72A900331D5A /* CCScale9SpriteLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9E41682F826002FB0C5 /* CCScale9SpriteLoader.cpp */; };
+		75F87F8B19CF72A900331D5A /* CCScrollViewLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9E61682F826002FB0C5 /* CCScrollViewLoader.cpp */; };
+		75F87F8C19CF72A900331D5A /* CCSpriteLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9E81682F826002FB0C5 /* CCSpriteLoader.cpp */; };
+		75F87F8D19CF72A900331D5A /* CCControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9EE1682F826002FB0C5 /* CCControl.cpp */; };
+		75F87F8E19CF72A900331D5A /* CCControlButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9F01682F826002FB0C5 /* CCControlButton.cpp */; };
+		75F87F8F19CF72A900331D5A /* CCControlColourPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9F21682F826002FB0C5 /* CCControlColourPicker.cpp */; };
+		75F87F9019CF72A900331D5A /* GlobalUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9184618A0CA5B00D6AC22 /* GlobalUpdater.cpp */; };
+		75F87F9119CF72A900331D5A /* PHNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAF818F736E2003A9765 /* PHNetworkUtil.m */; };
+		75F87F9219CF72A900331D5A /* PHTimeInGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1B18F736E2003A9765 /* PHTimeInGame.m */; };
+		75F87F9319CF72A900331D5A /* CCControlHuePicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9F51682F826002FB0C5 /* CCControlHuePicker.cpp */; };
+		75F87F9419CF72A900331D5A /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554808B18DCDEE200A648EF /* TSUtils.m */; };
+		75F87F9519CF72A900331D5A /* PHPushProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0F18F736E2003A9765 /* PHPushProvider.m */; };
+		75F87F9619CF72A900331D5A /* CCControlPotentiometer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9F71682F826002FB0C5 /* CCControlPotentiometer.cpp */; };
+		75F87F9719CF72A900331D5A /* CCControlSaturationBrightnessPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9F91682F826002FB0C5 /* CCControlSaturationBrightnessPicker.cpp */; };
+		75F87F9819CF72A900331D5A /* TSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554808118DCDEE200A648EF /* TSLogging.m */; };
+		75F87F9919CF72A900331D5A /* CCControlSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9FB1682F826002FB0C5 /* CCControlSlider.cpp */; };
+		75F87F9A19CF72A900331D5A /* ui_counting_label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918C818A0CA5B00D6AC22 /* ui_counting_label.cpp */; };
+		75F87F9B19CF72A900331D5A /* FixedUpdater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9188018A0CA5B00D6AC22 /* FixedUpdater.cpp */; };
+		75F87F9C19CF72A900331D5A /* TotalTimeCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918A818A0CA5B00D6AC22 /* TotalTimeCounter.cpp */; };
+		75F87F9D19CF72A900331D5A /* CCControlStepper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9FD1682F826002FB0C5 /* CCControlStepper.cpp */; };
+		75F87F9E19CF72A900331D5A /* CCControlSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3D9FF1682F826002FB0C5 /* CCControlSwitch.cpp */; };
+		75F87F9F19CF72A900331D5A /* SceneManagerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189618A0CA5B00D6AC22 /* SceneManagerBase.cpp */; };
+		75F87FA019CF72A900331D5A /* CCControlUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA011682F826002FB0C5 /* CCControlUtils.cpp */; };
+		75F87FA119CF72A900331D5A /* PHPublisherSubContentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0918F736E2003A9765 /* PHPublisherSubContentRequest.m */; };
+		75F87FA219CF72A900331D5A /* CCInvocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA031682F826002FB0C5 /* CCInvocation.cpp */; };
+		75F87FA319CF72A900331D5A /* CCScale9Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA051682F826002FB0C5 /* CCScale9Sprite.cpp */; };
+		75F87FA419CF72A900331D5A /* CCEditBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA081682F826002FB0C5 /* CCEditBox.cpp */; };
+		75F87FA519CF72A900331D5A /* CCEditBoxImplIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA0E1682F826002FB0C5 /* CCEditBoxImplIOS.mm */; };
+		75F87FA619CF72A900331D5A /* CCScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA121682F826002FB0C5 /* CCScrollView.cpp */; };
+		75F87FA719CF72A900331D5A /* TextureManagerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918A618A0CA5B00D6AC22 /* TextureManagerBase.cpp */; };
+		75F87FA819CF72A900331D5A /* node_effect_button_slide_in.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918B218A0CA5B00D6AC22 /* node_effect_button_slide_in.cpp */; };
+		75F87FA919CF72A900331D5A /* SaveLoadLevelUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186D18A0CA5B00D6AC22 /* SaveLoadLevelUI.cpp */; };
+		75F87FAA19CF72A900331D5A /* CCSorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA141682F826002FB0C5 /* CCSorting.cpp */; };
+		75F87FAB19CF72A900331D5A /* CCTableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA161682F826002FB0C5 /* CCTableView.cpp */; };
+		75F87FAC19CF72A900331D5A /* CCTableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA181682F826002FB0C5 /* CCTableViewCell.cpp */; };
+		75F87FAD19CF72A900331D5A /* HttpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA1B1682F826002FB0C5 /* HttpClient.cpp */; };
+		75F87FAE19CF72A900331D5A /* CCPhysicsDebugNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA201682F826002FB0C5 /* CCPhysicsDebugNode.cpp */; };
+		75F87FAF19CF72A900331D5A /* TSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554807618DCDEE200A648EF /* TSCore.m */; };
+		75F87FB019CF72A900331D5A /* CCPhysicsSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA221682F826002FB0C5 /* CCPhysicsSprite.cpp */; };
+		75F87FB119CF72A900331D5A /* CDAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA861682F8A6002FB0C5 /* CDAudioManager.m */; };
+		75F87FB219CF72A900331D5A /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA891682F8A6002FB0C5 /* CDOpenALSupport.m */; };
+		75F87FB319CF72A900331D5A /* TSTapstream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554808918DCDEE200A648EF /* TSTapstream.m */; };
+		75F87FB419CF72A900331D5A /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA8B1682F8A6002FB0C5 /* CocosDenshion.m */; };
+		75F87FB519CF72A900331D5A /* SimpleAudioEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA8C1682F8A6002FB0C5 /* SimpleAudioEngine.mm */; };
+		75F87FB619CF72A900331D5A /* SimpleAudioEngine_objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3DA8E1682F8A6002FB0C5 /* SimpleAudioEngine_objc.m */; };
+		75F87FB719CF72A900331D5A /* PHEventRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAF318F736E2003A9765 /* PHEventRequest.m */; };
+		75F87FB819CF72A900331D5A /* CCEditBoxImplAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A27573D1697CF2B00504026 /* CCEditBoxImplAndroid.cpp */; };
+		75F87FB919CF72A900331D5A /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898B716F8D11C00FE5FFF /* ASIAuthenticationDialog.m */; };
+		75F87FBA19CF72A900331D5A /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898BA16F8D11C00FE5FFF /* ASIDataCompressor.m */; };
+		75F87FBB19CF72A900331D5A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB9E18F736EB003A9765 /* SBJsonParser.m */; };
+		75F87FBC19CF72A900331D5A /* CommonProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9187718A0CA5B00D6AC22 /* CommonProperties.cpp */; };
+		75F87FBD19CF72A900331D5A /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898BC16F8D11C00FE5FFF /* ASIDataDecompressor.m */; };
+		75F87FBE19CF72A900331D5A /* PHConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAE918F736E2003A9765 /* PHConstants.m */; };
+		75F87FBF19CF72A900331D5A /* SpriteHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918A218A0CA5B00D6AC22 /* SpriteHelper.cpp */; };
+		75F87FC019CF72A900331D5A /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898BE16F8D11C00FE5FFF /* ASIDownloadCache.m */; };
+		75F87FC119CF72A900331D5A /* PHResourceCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1318F736E2003A9765 /* PHResourceCacher.m */; };
+		75F87FC219CF72A900331D5A /* SecurityHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918A018A0CA5B00D6AC22 /* SecurityHelper.cpp */; };
+		75F87FC319CF72A900331D5A /* scene_assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918BC18A0CA5B00D6AC22 /* scene_assert.cpp */; };
+		75F87FC419CF72A900331D5A /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898C016F8D11C00FE5FFF /* ASIFormDataRequest.m */; };
+		75F87FC519CF72A900331D5A /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898C216F8D11C00FE5FFF /* ASIHTTPRequest.m */; };
+		75F87FC619CF72A900331D5A /* CCAdvancedSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9187418A0CA5B00D6AC22 /* CCAdvancedSprite.cpp */; };
+		75F87FC719CF72A900331D5A /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9160018A0C6BA00D6AC22 /* SoundManager.cpp */; };
+		75F87FC819CF72A900331D5A /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898C616F8D11C00FE5FFF /* ASIInputStream.m */; };
+		75F87FC919CF72A900331D5A /* MemoryUsageHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9188F18A0CA5B00D6AC22 /* MemoryUsageHelper.cpp */; };
+		75F87FCA19CF72A900331D5A /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898C816F8D11C00FE5FFF /* ASINetworkQueue.m */; };
+		75F87FCB19CF72A900331D5A /* ASIWebPageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898CC16F8D11C00FE5FFF /* ASIWebPageRequest.m */; };
+		75F87FCC19CF72A900331D5A /* TSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4554807C18DCDEE200A648EF /* TSEvent.m */; };
+		75F87FCD19CF72A900331D5A /* NodeEffectGrouping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9185A18A0CA5B00D6AC22 /* NodeEffectGrouping.cpp */; };
+		75F87FCE19CF72A900331D5A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898CF16F8D11C00FE5FFF /* Reachability.m */; };
+		75F87FCF19CF72A900331D5A /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898D216F8D11C00FE5FFF /* CDataScanner.m */; };
+		75F87FD019CF72A900331D5A /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898D516F8D11C00FE5FFF /* CDataScanner_Extensions.m */; };
+		75F87FD119CF72A900331D5A /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898D716F8D11C00FE5FFF /* NSCharacterSet_Extensions.m */; };
+		75F87FD219CF72A900331D5A /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898D916F8D11C00FE5FFF /* NSDictionary_JSONExtensions.m */; };
+		75F87FD319CF72A900331D5A /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898DB16F8D11C00FE5FFF /* NSScanner_Extensions.m */; };
+		75F87FD419CF72A900331D5A /* PHPublisherOpenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0718F736E2003A9765 /* PHPublisherOpenRequest.m */; };
+		75F87FD519CF72A900331D5A /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898DE16F8D11C00FE5FFF /* CJSONDataSerializer.m */; };
+		75F87FD619CF72A900331D5A /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898E016F8D11C00FE5FFF /* CJSONDeserializer.m */; };
+		75F87FD719CF72A900331D5A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEBA018F736EB003A9765 /* SBJsonWriter.m */; };
+		75F87FD819CF72A900331D5A /* ig_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918C418A0CA5B00D6AC22 /* ig_interface.cpp */; };
+		75F87FD919CF72A900331D5A /* FileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9187E18A0CA5B00D6AC22 /* FileHelper.cpp */; };
+		75F87FDA19CF72A900331D5A /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898E216F8D11C00FE5FFF /* CJSONScanner.m */; };
+		75F87FDB19CF72A900331D5A /* LogHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9188718A0CA5B00D6AC22 /* LogHelper.cpp */; };
+		75F87FDC19CF72A900331D5A /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898E416F8D11C00FE5FFF /* CJSONSerializer.m */; };
+		75F87FDD19CF72A900331D5A /* PHPushDeliveryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB0D18F736E2003A9765 /* PHPushDeliveryRequest.m */; };
+		75F87FDE19CF72A900331D5A /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 254898E616F8D11C00FE5FFF /* CSerializedJSONData.m */; };
+		75F87FDF19CF72A900331D5A /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25E6301C16F91BDC002FADD1 /* AppController.mm */; };
+		75F87FE019CF72A900331D5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E6302016F91C41002FADD1 /* main.m */; };
+		75F87FE119CF72A900331D5A /* nsdata_and_base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E6302216F91C41002FADD1 /* nsdata_and_base64.m */; };
+		75F87FE219CF72A900331D5A /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25E6302416F91C41002FADD1 /* RootViewController.mm */; };
+		75F87FE319CF72A900331D5A /* ScreenLogListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9189C18A0CA5B00D6AC22 /* ScreenLogListener.cpp */; };
+		75F87FE419CF72A900331D5A /* PHPushRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEB1118F736E2003A9765 /* PHPushRequest.m */; };
+		75F87FE519CF72A900331D5A /* verification_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E6302616F91C41002FADD1 /* verification_controller.m */; };
+		75F87FE619CF72A900331D5A /* CCInAppPurchase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186518A0CA5B00D6AC22 /* CCInAppPurchase.cpp */; };
+		75F87FE719CF72A900331D5A /* scene_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918BE18A0CA5B00D6AC22 /* scene_base.cpp */; };
+		75F87FE819CF72A900331D5A /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB915FE18A0C6BA00D6AC22 /* SceneManager.cpp */; };
+		75F87FE919CF72A900331D5A /* LogoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75A0976318EB1CED0009EA0E /* LogoViewController.mm */; };
+		75F87FEA19CF72A900331D5A /* CCAnimateWithCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9184D18A0CA5B00D6AC22 /* CCAnimateWithCallback.cpp */; };
+		75F87FEB19CF72A900331D5A /* ui_popup_box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918CE18A0CA5C00D6AC22 /* ui_popup_box.cpp */; };
+		75F87FEC19CF72A900331D5A /* cannon_arc_helper_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB918B918A0CA5B00D6AC22 /* cannon_arc_helper_node.cpp */; };
+		75F87FED19CF72A900331D5A /* PHEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 459EEAF118F736E2003A9765 /* PHEvent.m */; };
+		75F87FEE19CF72A900331D5A /* UIDebugAlert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB9186F18A0CA5B00D6AC22 /* UIDebugAlert.cpp */; };
+		75F87FF119CF72A900331D5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6EA16F5F4350054E612 /* SystemConfiguration.framework */; };
+		75F87FF219CF72A900331D5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		75F87FF319CF72A900331D5A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251A565F16FA065900718225 /* CoreMotion.framework */; };
+		75F87FF419CF72A900331D5A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6EE16F5F4530054E612 /* libsqlite3.dylib */; };
+		75F87FF519CF72A900331D5A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
+		75F87FF619CF72A900331D5A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6EC16F5F4410054E612 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75F87FF719CF72A900331D5A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6E816F5F42C0054E612 /* MessageUI.framework */; };
+		75F87FF819CF72A900331D5A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6E616F5F41D0054E612 /* Security.framework */; };
+		75F87FF919CF72A900331D5A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6E416F5F4180054E612 /* CoreLocation.framework */; };
+		75F87FFA19CF72A900331D5A /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80314FF18A16307005755E9 /* Tapjoy.framework */; };
+		75F87FFB19CF72A900331D5A /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6E216F5F40D0054E612 /* Twitter.framework */; };
+		75F87FFC19CF72A900331D5A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6E016F5F4030054E612 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75F87FFD19CF72A900331D5A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6DE16F5F3F60054E612 /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75F87FFF19CF72A900331D5A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6DC16F5F3EA0054E612 /* GameKit.framework */; };
+		75F8800119CF72A900331D5A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6DA16F5F3E20054E612 /* MobileCoreServices.framework */; };
+		75F8800219CF72A900331D5A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D816F5F3D80054E612 /* CFNetwork.framework */; };
+		75F8800319CF72A900331D5A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D616F5F3D00054E612 /* CoreMedia.framework */; };
+		75F8800419CF72A900331D5A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D416F5F3C90054E612 /* CoreVideo.framework */; };
+		75F8800519CF72A900331D5A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D216F5F3C10054E612 /* EventKit.framework */; };
+		75F8800619CF72A900331D5A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6D016F5F3AF0054E612 /* CoreTelephony.framework */; };
+		75F8800819CF72A900331D5A /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CE16F5F3A40054E612 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		75F8800919CF72A900331D5A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CC16F5F3990054E612 /* MediaPlayer.framework */; };
+		75F8800C19CF72A900331D5A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6C816F5F37D0054E612 /* StoreKit.framework */; };
+		75F8800E19CF72A900331D5A /* libShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE66F16F5F1A00054E612 /* libShareKit.a */; };
+		75F8800F19CF72A900331D5A /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A3D8861682F7B3002FB0C5 /* libcocos2dx.a */; };
+		75F8801019CF72A900331D5A /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACB3243164770DE00914215 /* libcurl.a */; };
+		75F8801119CF72A900331D5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		75F8801219CF72A900331D5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		75F8801319CF72A900331D5A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
+		75F8801419CF72A900331D5A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
+		75F8801519CF72A900331D5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		75F8801719CF72A900331D5A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
+		75F8801819CF72A900331D5A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
+		75F8801919CF72A900331D5A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
+		75F8802119CF730D00331D5A /* AskingPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459EEBE718F73E4F003A9765 /* AskingPoint.framework */; };
+		75F8802219CF73D600331D5A /* libFlurry_4.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 459EEADA18F73471003A9765 /* libFlurry_4.4.0.a */; };
+		75F8802319CF793000331D5A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ABE6CA16F5F3850054E612 /* AdSupport.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -1674,13 +2005,6 @@
 			remoteGlobalIDString = AABBED1B162F08A3009D46E4;
 			remoteInfo = VKontakte;
 		};
-		25ABE6B016F5F1A00054E612 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25ABE63B16F5F19F0054E612 /* ShareKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7AC2A3A016597F4C0089ABE8;
-			remoteInfo = "Sina Weibo";
-		};
 		25ABE6B216F5F1A00054E612 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 25ABE63B16F5F19F0054E612 /* ShareKit.xcodeproj */;
@@ -1715,6 +2039,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
 			remoteInfo = "Static Library";
+		};
+		75F87EC219CF72A900331D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25ABE63B16F5F19F0054E612 /* ShareKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
+			remoteInfo = "Static Library";
+		};
+		75F87EC419CF72A900331D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25ABE63B16F5F19F0054E612 /* ShareKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB5360E1552E26800171BCE;
+			remoteInfo = "Resource Bundle";
+		};
+		75F87EC619CF72A900331D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A3D87E1682F7B3002FB0C5 /* cocos2dx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1551A33E158F2AB200E66CFE;
+			remoteInfo = cocos2dx;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -2225,6 +2570,8 @@
 		75A0979618EB1D5D0009EA0E /* logo_eng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_eng.png; sourceTree = "<group>"; };
 		75A0979718EB1D5D0009EA0E /* logo_rus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_rus.png; sourceTree = "<group>"; };
 		75A28C2118F1F85F00A6C0B2 /* game_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game_music.wav; sourceTree = "<group>"; };
+		75F8801E19CF72A900331D5A /* GameFree copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameFree copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F8801F19CF72AA00331D5A /* GameFree copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GameFree copy-Info.plist"; path = "/Users/Andrei/Desktop/Pavel Mamaev/Flappy_Phoebe/iOSProject/code/game_flappy_crocodile_ios/games/game_flappy_crocodile/proj.ios/GameFree copy-Info.plist"; sourceTree = "<absolute>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -2619,6 +2966,50 @@
 				253155A4173E6ADA00452B4F /* AVFoundation.framework in Frameworks */,
 				F803150718A16309005755E9 /* Tapjoy.framework in Frameworks */,
 				253155A5173E6ADA00452B4F /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F87FEF19CF72A900331D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F8802119CF730D00331D5A /* AskingPoint.framework in Frameworks */,
+				75F87FF119CF72A900331D5A /* SystemConfiguration.framework in Frameworks */,
+				75F87FF219CF72A900331D5A /* CoreGraphics.framework in Frameworks */,
+				75F87FF319CF72A900331D5A /* CoreMotion.framework in Frameworks */,
+				75F87FF419CF72A900331D5A /* libsqlite3.dylib in Frameworks */,
+				75F87FF519CF72A900331D5A /* libxml2.dylib in Frameworks */,
+				75F87FF619CF72A900331D5A /* Accounts.framework in Frameworks */,
+				75F87FF719CF72A900331D5A /* MessageUI.framework in Frameworks */,
+				75F87FF819CF72A900331D5A /* Security.framework in Frameworks */,
+				75F87FF919CF72A900331D5A /* CoreLocation.framework in Frameworks */,
+				75F87FFA19CF72A900331D5A /* Tapjoy.framework in Frameworks */,
+				75F87FFB19CF72A900331D5A /* Twitter.framework in Frameworks */,
+				75F87FFC19CF72A900331D5A /* Social.framework in Frameworks */,
+				75F87FFD19CF72A900331D5A /* CoreFoundation.framework in Frameworks */,
+				75F8802319CF793000331D5A /* AdSupport.framework in Frameworks */,
+				75F87FFF19CF72A900331D5A /* GameKit.framework in Frameworks */,
+				75F8800119CF72A900331D5A /* MobileCoreServices.framework in Frameworks */,
+				75F8800219CF72A900331D5A /* CFNetwork.framework in Frameworks */,
+				75F8800319CF72A900331D5A /* CoreMedia.framework in Frameworks */,
+				75F8800419CF72A900331D5A /* CoreVideo.framework in Frameworks */,
+				75F8800519CF72A900331D5A /* EventKit.framework in Frameworks */,
+				75F8800619CF72A900331D5A /* CoreTelephony.framework in Frameworks */,
+				75F8800819CF72A900331D5A /* PassKit.framework in Frameworks */,
+				75F8800919CF72A900331D5A /* MediaPlayer.framework in Frameworks */,
+				75F8800C19CF72A900331D5A /* StoreKit.framework in Frameworks */,
+				75F8800E19CF72A900331D5A /* libShareKit.a in Frameworks */,
+				75F8800F19CF72A900331D5A /* libcocos2dx.a in Frameworks */,
+				75F8802219CF73D600331D5A /* libFlurry_4.4.0.a in Frameworks */,
+				75F8801019CF72A900331D5A /* libcurl.a in Frameworks */,
+				75F8801119CF72A900331D5A /* Foundation.framework in Frameworks */,
+				75F8801219CF72A900331D5A /* UIKit.framework in Frameworks */,
+				75F8801319CF72A900331D5A /* OpenGLES.framework in Frameworks */,
+				75F8801419CF72A900331D5A /* libz.dylib in Frameworks */,
+				75F8801519CF72A900331D5A /* QuartzCore.framework in Frameworks */,
+				75F8801719CF72A900331D5A /* OpenAL.framework in Frameworks */,
+				75F8801819CF72A900331D5A /* AVFoundation.framework in Frameworks */,
+				75F8801919CF72A900331D5A /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3133,6 +3524,7 @@
 				25082C1016FA634400D7D2BA /* Flappy Crocodile.app */,
 				25315489173E6AB100452B4F /* Flappy Crocodile FreeHD.app */,
 				253155AD173E6ADA00452B4F /* Flappy Crocodile HD.app */,
+				75F8801E19CF72A900331D5A /* GameFree copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3333,7 +3725,6 @@
 				25ABE6AB16F5F1A00054E612 /* libTumblr.a */,
 				25ABE6AD16F5F1A00054E612 /* libTwitter.a */,
 				25ABE6AF16F5F1A00054E612 /* libVKontakte.a */,
-				25ABE6B116F5F1A00054E612 /* libSina Weibo.a */,
 				25ABE6B316F5F1A00054E612 /* libReadability.a */,
 				25ABE6B516F5F1A00054E612 /* libHatena.a */,
 				25ABE6B716F5F1A00054E612 /* libPlurk.a */,
@@ -3433,6 +3824,7 @@
 				080E96DDFE201D6D7F000001 /* ios */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				78C7DDAA14EBA5050085D0C2 /* Resources */,
+				75F8801F19CF72AA00331D5A /* GameFree copy-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -4060,13 +4452,33 @@
 			productReference = 253155AD173E6ADA00452B4F /* Flappy Crocodile HD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		75F87EC019CF72A900331D5A /* NewGamePaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F8801B19CF72A900331D5A /* Build configuration list for PBXNativeTarget "NewGamePaid" */;
+			buildPhases = (
+				75F87EC719CF72A900331D5A /* Resources */,
+				75F87EE519CF72A900331D5A /* Sources */,
+				75F87FEF19CF72A900331D5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F87EC119CF72A900331D5A /* PBXTargetDependency */,
+				75F87EC319CF72A900331D5A /* PBXTargetDependency */,
+				75F87EC519CF72A900331D5A /* PBXTargetDependency */,
+			);
+			name = NewGamePaid;
+			productName = iphone;
+			productReference = 75F8801E19CF72A900331D5A /* GameFree copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 94G97SK366;
@@ -4110,6 +4522,7 @@
 				25082B0716FA634400D7D2BA /* GamePaid */,
 				25315389173E6AB100452B4F /* GameFreeHD */,
 				253154AF173E6ADA00452B4F /* GamePaidHD */,
+				75F87EC019CF72A900331D5A /* NewGamePaid */,
 			);
 		};
 /* End PBXProject section */
@@ -4360,13 +4773,6 @@
 			remoteRef = 25ABE6AE16F5F1A00054E612 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		25ABE6B116F5F1A00054E612 /* libSina Weibo.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSina Weibo.a";
-			remoteRef = 25ABE6B016F5F1A00054E612 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		25ABE6B316F5F1A00054E612 /* libReadability.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -4535,6 +4941,42 @@
 				2531566B173E70F500452B4F /* Icon.png in Resources */,
 				75A0977118EB1CED0009EA0E /* LogoViewController~ipad.xib in Resources */,
 				2531566C173E70F500452B4F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F87EC719CF72A900331D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F87EC819CF72A900331D5A /* logo_rus.png in Resources */,
+				75F87EC919CF72A900331D5A /* ShareKit.bundle in Resources */,
+				75F87ECA19CF72A900331D5A /* Icon120.png in Resources */,
+				75F87ECB19CF72A900331D5A /* Icon50.png in Resources */,
+				75F87ECC19CF72A900331D5A /* CommonClasses.vcxproj.user in Resources */,
+				75F87ECD19CF72A900331D5A /* Icon76.png in Resources */,
+				75F87ECE19CF72A900331D5A /* CMakeLists.txt in Resources */,
+				75F87ECF19CF72A900331D5A /* CommonClasses.vcxproj.filters in Resources */,
+				75F87ED019CF72A900331D5A /* Icon100.png in Resources */,
+				75F87ED119CF72A900331D5A /* Icon80.png in Resources */,
+				75F87ED219CF72A900331D5A /* game_music.mp3 in Resources */,
+				75F87ED319CF72A900331D5A /* assets in Resources */,
+				75F87ED419CF72A900331D5A /* game_music.wav in Resources */,
+				75F87ED519CF72A900331D5A /* TapjoyResources.bundle in Resources */,
+				75F87ED619CF72A900331D5A /* Icon-72.png in Resources */,
+				75F87ED719CF72A900331D5A /* LogoViewController.xib in Resources */,
+				75F87ED819CF72A900331D5A /* Icon-72@2x.png in Resources */,
+				75F87ED919CF72A900331D5A /* Default-568h@2x.png in Resources */,
+				75F87EDA19CF72A900331D5A /* Icon29.png in Resources */,
+				75F87EDB19CF72A900331D5A /* all_source_files_from_path.mk in Resources */,
+				75F87EDC19CF72A900331D5A /* Icon58.png in Resources */,
+				75F87EDD19CF72A900331D5A /* Icon144.png in Resources */,
+				75F87EDE19CF72A900331D5A /* LogoViewController~ipad.xib in Resources */,
+				75F87EDF19CF72A900331D5A /* Icon.png in Resources */,
+				75F87EE019CF72A900331D5A /* Icon152.png in Resources */,
+				75F87EE119CF72A900331D5A /* Icon40.png in Resources */,
+				75F87EE219CF72A900331D5A /* logo_eng.png in Resources */,
+				75F87EE319CF72A900331D5A /* CommonClasses.vcxproj in Resources */,
+				75F87EE419CF72A900331D5A /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5629,6 +6071,278 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75F87EE519CF72A900331D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F87EE619CF72A900331D5A /* b2BroadPhase.cpp in Sources */,
+				75F87EE719CF72A900331D5A /* NodeHelper.cpp in Sources */,
+				75F87EE819CF72A900331D5A /* b2CollideCircle.cpp in Sources */,
+				75F87EE919CF72A900331D5A /* b2CollideEdge.cpp in Sources */,
+				75F87EEA19CF72A900331D5A /* InputHelper.cpp in Sources */,
+				75F87EEB19CF72A900331D5A /* b2CollidePolygon.cpp in Sources */,
+				75F87EEC19CF72A900331D5A /* b2Collision.cpp in Sources */,
+				75F87EED19CF72A900331D5A /* SKGameMetadata.cpp in Sources */,
+				75F87EEE19CF72A900331D5A /* effect_manager.cpp in Sources */,
+				75F87EEF19CF72A900331D5A /* b2Distance.cpp in Sources */,
+				75F87EF019CF72A900331D5A /* PHAPIRequest.m in Sources */,
+				75F87EF119CF72A900331D5A /* PHStringUtil.m in Sources */,
+				75F87EF219CF72A900331D5A /* b2DynamicTree.cpp in Sources */,
+				75F87EF319CF72A900331D5A /* b2TimeOfImpact.cpp in Sources */,
+				75F87EF419CF72A900331D5A /* b2ChainShape.cpp in Sources */,
+				75F87EF519CF72A900331D5A /* PHContentView.m in Sources */,
+				75F87EF619CF72A900331D5A /* b2CircleShape.cpp in Sources */,
+				75F87EF719CF72A900331D5A /* b2EdgeShape.cpp in Sources */,
+				75F87EF819CF72A900331D5A /* sharing_service.cpp in Sources */,
+				75F87EF919CF72A900331D5A /* b2PolygonShape.cpp in Sources */,
+				75F87EFA19CF72A900331D5A /* b2BlockAllocator.cpp in Sources */,
+				75F87EFB19CF72A900331D5A /* b2Draw.cpp in Sources */,
+				75F87EFC19CF72A900331D5A /* MathHelper.cpp in Sources */,
+				75F87EFD19CF72A900331D5A /* b2Math.cpp in Sources */,
+				75F87EFE19CF72A900331D5A /* b2Settings.cpp in Sources */,
+				75F87EFF19CF72A900331D5A /* b2StackAllocator.cpp in Sources */,
+				75F87F0019CF72A900331D5A /* CCCallLambda.cpp in Sources */,
+				75F87F0119CF72A900331D5A /* TSConfig.m in Sources */,
+				75F87F0219CF72A900331D5A /* b2Timer.cpp in Sources */,
+				75F87F0319CF72A900331D5A /* ui_scrolling_sprite_field.cpp in Sources */,
+				75F87F0419CF72A900331D5A /* PHConnectionManager.m in Sources */,
+				75F87F0519CF72A900331D5A /* b2Body.cpp in Sources */,
+				75F87F0619CF72A900331D5A /* scene_manager.cpp in Sources */,
+				75F87F0719CF72A900331D5A /* b2ContactManager.cpp in Sources */,
+				75F87F0819CF72A900331D5A /* b2Fixture.cpp in Sources */,
+				75F87F0919CF72A900331D5A /* SceneBase.cpp in Sources */,
+				75F87F0A19CF72A900331D5A /* TSHit.m in Sources */,
+				75F87F0B19CF72A900331D5A /* b2Island.cpp in Sources */,
+				75F87F0C19CF72A900331D5A /* b2World.cpp in Sources */,
+				75F87F0D19CF72A900331D5A /* FlappyGameplayLayer.cpp in Sources */,
+				75F87F0E19CF72A900331D5A /* b2WorldCallbacks.cpp in Sources */,
+				75F87F0F19CF72A900331D5A /* b2ChainAndCircleContact.cpp in Sources */,
+				75F87F1019CF72A900331D5A /* ScreenLogLayer.cpp in Sources */,
+				75F87F1119CF72A900331D5A /* b2ChainAndPolygonContact.cpp in Sources */,
+				75F87F1219CF72A900331D5A /* CCMessageBoxYesNo.cpp in Sources */,
+				75F87F1319CF72A900331D5A /* TSPlatformImpl.m in Sources */,
+				75F87F1419CF72A900331D5A /* CCLabelHelper.cpp in Sources */,
+				75F87F1519CF72A900331D5A /* b2CircleContact.cpp in Sources */,
+				75F87F1619CF72A900331D5A /* b2Contact.cpp in Sources */,
+				75F87F1719CF72A900331D5A /* b2ContactSolver.cpp in Sources */,
+				75F87F1819CF72A900331D5A /* b2EdgeAndCircleContact.cpp in Sources */,
+				75F87F1919CF72A900331D5A /* NodeEffectRotatingWithAngles.cpp in Sources */,
+				75F87F1A19CF72A900331D5A /* ObserverEvent.cpp in Sources */,
+				75F87F1B19CF72A900331D5A /* b2EdgeAndPolygonContact.cpp in Sources */,
+				75F87F1C19CF72A900331D5A /* b2PolygonAndCircleContact.cpp in Sources */,
+				75F87F1D19CF72A900331D5A /* PHPublisherIAPTrackingRequest.m in Sources */,
+				75F87F1E19CF72A900331D5A /* b2PolygonContact.cpp in Sources */,
+				75F87F1F19CF72A900331D5A /* NodeEffectButtonScaleQuarter.cpp in Sources */,
+				75F87F2019CF72A900331D5A /* b2DistanceJoint.cpp in Sources */,
+				75F87F2119CF72A900331D5A /* b2FrictionJoint.cpp in Sources */,
+				75F87F2219CF72A900331D5A /* b2GearJoint.cpp in Sources */,
+				75F87F2319CF72A900331D5A /* b2Joint.cpp in Sources */,
+				75F87F2419CF72A900331D5A /* b2MouseJoint.cpp in Sources */,
+				75F87F2519CF72A900331D5A /* b2PrismaticJoint.cpp in Sources */,
+				75F87F2619CF72A900331D5A /* b2PulleyJoint.cpp in Sources */,
+				75F87F2719CF72A900331D5A /* EncodingHelper.cpp in Sources */,
+				75F87F2819CF72A900331D5A /* b2RevoluteJoint.cpp in Sources */,
+				75F87F2919CF72A900331D5A /* TSAppEventSourceImpl.m in Sources */,
+				75F87F2A19CF72A900331D5A /* b2RopeJoint.cpp in Sources */,
+				75F87F2B19CF72A900331D5A /* b2WeldJoint.cpp in Sources */,
+				75F87F2C19CF72A900331D5A /* StringHelper.cpp in Sources */,
+				75F87F2D19CF72A900331D5A /* b2WheelJoint.cpp in Sources */,
+				75F87F2E19CF72A900331D5A /* b2Rope.cpp in Sources */,
+				75F87F2F19CF72A900331D5A /* chipmunk.c in Sources */,
+				75F87F3019CF72A900331D5A /* NSObject+QueryComponents.m in Sources */,
+				75F87F3119CF72A900331D5A /* cpConstraint.c in Sources */,
+				75F87F3219CF72A900331D5A /* CCLabelWithShadow.cpp in Sources */,
+				75F87F3319CF72A900331D5A /* cpDampedRotarySpring.c in Sources */,
+				75F87F3419CF72A900331D5A /* cpDampedSpring.c in Sources */,
+				75F87F3519CF72A900331D5A /* cpGearJoint.c in Sources */,
+				75F87F3619CF72A900331D5A /* cpGrooveJoint.c in Sources */,
+				75F87F3719CF72A900331D5A /* MoveToWithEasing.cpp in Sources */,
+				75F87F3819CF72A900331D5A /* PHNotificationRenderer.m in Sources */,
+				75F87F3919CF72A900331D5A /* cpPinJoint.c in Sources */,
+				75F87F3A19CF72A900331D5A /* UIDevice+HardwareString.m in Sources */,
+				75F87F3B19CF72A900331D5A /* ig_easing_curves.cpp in Sources */,
+				75F87F3C19CF72A900331D5A /* cpPivotJoint.c in Sources */,
+				75F87F3D19CF72A900331D5A /* cpRatchetJoint.c in Sources */,
+				75F87F3E19CF72A900331D5A /* cpRotaryLimitJoint.c in Sources */,
+				75F87F3F19CF72A900331D5A /* cpSimpleMotor.c in Sources */,
+				75F87F4019CF72A900331D5A /* NodeEffectQuarterRotating.cpp in Sources */,
+				75F87F4119CF72A900331D5A /* ScreenViewHelper.cpp in Sources */,
+				75F87F4219CF72A900331D5A /* ui_button.cpp in Sources */,
+				75F87F4319CF72A900331D5A /* cpSlideJoint.c in Sources */,
+				75F87F4419CF72A900331D5A /* cpArbiter.c in Sources */,
+				75F87F4519CF72A900331D5A /* cpArray.c in Sources */,
+				75F87F4619CF72A900331D5A /* NodeEffectCirclePosition.cpp in Sources */,
+				75F87F4719CF72A900331D5A /* cpBB.c in Sources */,
+				75F87F4819CF72A900331D5A /* cpBBTree.c in Sources */,
+				75F87F4919CF72A900331D5A /* cpBody.c in Sources */,
+				75F87F4A19CF72A900331D5A /* cpCollision.c in Sources */,
+				75F87F4B19CF72A900331D5A /* PHReward.m in Sources */,
+				75F87F4C19CF72A900331D5A /* TSCoreListenerImpl.m in Sources */,
+				75F87F4D19CF72A900331D5A /* cpHashSet.c in Sources */,
+				75F87F4E19CF72A900331D5A /* NodeEffectWithEasingBase.cpp in Sources */,
+				75F87F4F19CF72A900331D5A /* cpPolyShape.c in Sources */,
+				75F87F5019CF72A900331D5A /* cpShape.c in Sources */,
+				75F87F5119CF72A900331D5A /* cpSpace.c in Sources */,
+				75F87F5219CF72A900331D5A /* AppDelegate.cpp in Sources */,
+				75F87F5319CF72A900331D5A /* cpSpaceComponent.c in Sources */,
+				75F87F5419CF72A900331D5A /* PHError.m in Sources */,
+				75F87F5519CF72A900331D5A /* cpSpaceHash.c in Sources */,
+				75F87F5619CF72A900331D5A /* cpSpaceQuery.c in Sources */,
+				75F87F5719CF72A900331D5A /* cpSpaceStep.c in Sources */,
+				75F87F5819CF72A900331D5A /* cpSpatialIndex.c in Sources */,
+				75F87F5919CF72A900331D5A /* cpSweep1D.c in Sources */,
+				75F87F5A19CF72A900331D5A /* PHPublisherMetadataRequest.m in Sources */,
+				75F87F5B19CF72A900331D5A /* cpVect.c in Sources */,
+				75F87F5C19CF72A900331D5A /* GeometryHelper.cpp in Sources */,
+				75F87F5D19CF72A900331D5A /* PHNotificationBadgeRenderer.m in Sources */,
+				75F87F5E19CF72A900331D5A /* ScreenBlurrer.cpp in Sources */,
+				75F87F5F19CF72A900331D5A /* PHPurchase.m in Sources */,
+				75F87F6019CF72A900331D5A /* ui_scrolling_backdrop.cpp in Sources */,
+				75F87F6119CF72A900331D5A /* ui_fullscreen_quad.cpp in Sources */,
+				75F87F6219CF72A900331D5A /* TouchableLayerBase.cpp in Sources */,
+				75F87F6319CF72A900331D5A /* CCBAnimationManager.cpp in Sources */,
+				75F87F6419CF72A900331D5A /* CCBFileLoader.cpp in Sources */,
+				75F87F6519CF72A900331D5A /* PHNotificationView.m in Sources */,
+				75F87F6619CF72A900331D5A /* node_effect_sine_wave_motion.cpp in Sources */,
+				75F87F6719CF72A900331D5A /* PHKontagentDataAccessor.m in Sources */,
+				75F87F6819CF72A900331D5A /* SBJsonBase.m in Sources */,
+				75F87F6919CF72A900331D5A /* CCBKeyframe.cpp in Sources */,
+				75F87F6A19CF72A900331D5A /* TSResponse.m in Sources */,
+				75F87F6B19CF72A900331D5A /* CCBReader.cpp in Sources */,
+				75F87F6C19CF72A900331D5A /* CCBSequence.cpp in Sources */,
+				75F87F6D19CF72A900331D5A /* CCBSequenceProperty.cpp in Sources */,
+				75F87F6E19CF72A900331D5A /* CCBValue.cpp in Sources */,
+				75F87F6F19CF72A900331D5A /* CCControlButtonLoader.cpp in Sources */,
+				75F87F7019CF72A900331D5A /* PHPublisherContentRequest.m in Sources */,
+				75F87F7119CF72A900331D5A /* CCControlLoader.cpp in Sources */,
+				75F87F7219CF72A900331D5A /* ig_utilities.cpp in Sources */,
+				75F87F7319CF72A900331D5A /* CCData.cpp in Sources */,
+				75F87F7419CF72A900331D5A /* CCOpacityTo.cpp in Sources */,
+				75F87F7519CF72A900331D5A /* node_effect_button_scale.cpp in Sources */,
+				75F87F7619CF72A900331D5A /* ui_toggle_button.cpp in Sources */,
+				75F87F7719CF72A900331D5A /* CCLabelBMFontLoader.cpp in Sources */,
+				75F87F7819CF72A900331D5A /* CCLabelTTFLoader.cpp in Sources */,
+				75F87F7919CF72A900331D5A /* PHURLLoader.m in Sources */,
+				75F87F7A19CF72A900331D5A /* ui_scrolling_list.cpp in Sources */,
+				75F87F7B19CF72A900331D5A /* CCLayerColorLoader.cpp in Sources */,
+				75F87F7C19CF72A900331D5A /* CCLayerGradientLoader.cpp in Sources */,
+				75F87F7D19CF72A900331D5A /* CCLayerLoader.cpp in Sources */,
+				75F87F7E19CF72A900331D5A /* IdentityObject.cpp in Sources */,
+				75F87F7F19CF72A900331D5A /* CCMenuItemImageLoader.cpp in Sources */,
+				75F87F8019CF72A900331D5A /* CorePlatformAll.cpp in Sources */,
+				75F87F8119CF72A900331D5A /* CCMenuItemLoader.cpp in Sources */,
+				75F87F8219CF72A900331D5A /* CCNode+CCBRelativePositioning.cpp in Sources */,
+				75F87F8319CF72A900331D5A /* CCNodeLoader.cpp in Sources */,
+				75F87F8419CF72A900331D5A /* ui_label.cpp in Sources */,
+				75F87F8519CF72A900331D5A /* CCNodeLoaderLibrary.cpp in Sources */,
+				75F87F8619CF72A900331D5A /* CCParticleSystemQuadLoader.cpp in Sources */,
+				75F87F8719CF72A900331D5A /* PHContent.m in Sources */,
+				75F87F8819CF72A900331D5A /* PHStoreProductViewController.m in Sources */,
+				75F87F8919CF72A900331D5A /* node_effect_move_to.cpp in Sources */,
+				75F87F8A19CF72A900331D5A /* CCScale9SpriteLoader.cpp in Sources */,
+				75F87F8B19CF72A900331D5A /* CCScrollViewLoader.cpp in Sources */,
+				75F87F8C19CF72A900331D5A /* CCSpriteLoader.cpp in Sources */,
+				75F87F8D19CF72A900331D5A /* CCControl.cpp in Sources */,
+				75F87F8E19CF72A900331D5A /* CCControlButton.cpp in Sources */,
+				75F87F8F19CF72A900331D5A /* CCControlColourPicker.cpp in Sources */,
+				75F87F9019CF72A900331D5A /* GlobalUpdater.cpp in Sources */,
+				75F87F9119CF72A900331D5A /* PHNetworkUtil.m in Sources */,
+				75F87F9219CF72A900331D5A /* PHTimeInGame.m in Sources */,
+				75F87F9319CF72A900331D5A /* CCControlHuePicker.cpp in Sources */,
+				75F87F9419CF72A900331D5A /* TSUtils.m in Sources */,
+				75F87F9519CF72A900331D5A /* PHPushProvider.m in Sources */,
+				75F87F9619CF72A900331D5A /* CCControlPotentiometer.cpp in Sources */,
+				75F87F9719CF72A900331D5A /* CCControlSaturationBrightnessPicker.cpp in Sources */,
+				75F87F9819CF72A900331D5A /* TSLogging.m in Sources */,
+				75F87F9919CF72A900331D5A /* CCControlSlider.cpp in Sources */,
+				75F87F9A19CF72A900331D5A /* ui_counting_label.cpp in Sources */,
+				75F87F9B19CF72A900331D5A /* FixedUpdater.cpp in Sources */,
+				75F87F9C19CF72A900331D5A /* TotalTimeCounter.cpp in Sources */,
+				75F87F9D19CF72A900331D5A /* CCControlStepper.cpp in Sources */,
+				75F87F9E19CF72A900331D5A /* CCControlSwitch.cpp in Sources */,
+				75F87F9F19CF72A900331D5A /* SceneManagerBase.cpp in Sources */,
+				75F87FA019CF72A900331D5A /* CCControlUtils.cpp in Sources */,
+				75F87FA119CF72A900331D5A /* PHPublisherSubContentRequest.m in Sources */,
+				75F87FA219CF72A900331D5A /* CCInvocation.cpp in Sources */,
+				75F87FA319CF72A900331D5A /* CCScale9Sprite.cpp in Sources */,
+				75F87FA419CF72A900331D5A /* CCEditBox.cpp in Sources */,
+				75F87FA519CF72A900331D5A /* CCEditBoxImplIOS.mm in Sources */,
+				75F87FA619CF72A900331D5A /* CCScrollView.cpp in Sources */,
+				75F87FA719CF72A900331D5A /* TextureManagerBase.cpp in Sources */,
+				75F87FA819CF72A900331D5A /* node_effect_button_slide_in.cpp in Sources */,
+				75F87FA919CF72A900331D5A /* SaveLoadLevelUI.cpp in Sources */,
+				75F87FAA19CF72A900331D5A /* CCSorting.cpp in Sources */,
+				75F87FAB19CF72A900331D5A /* CCTableView.cpp in Sources */,
+				75F87FAC19CF72A900331D5A /* CCTableViewCell.cpp in Sources */,
+				75F87FAD19CF72A900331D5A /* HttpClient.cpp in Sources */,
+				75F87FAE19CF72A900331D5A /* CCPhysicsDebugNode.cpp in Sources */,
+				75F87FAF19CF72A900331D5A /* TSCore.m in Sources */,
+				75F87FB019CF72A900331D5A /* CCPhysicsSprite.cpp in Sources */,
+				75F87FB119CF72A900331D5A /* CDAudioManager.m in Sources */,
+				75F87FB219CF72A900331D5A /* CDOpenALSupport.m in Sources */,
+				75F87FB319CF72A900331D5A /* TSTapstream.m in Sources */,
+				75F87FB419CF72A900331D5A /* CocosDenshion.m in Sources */,
+				75F87FB519CF72A900331D5A /* SimpleAudioEngine.mm in Sources */,
+				75F87FB619CF72A900331D5A /* SimpleAudioEngine_objc.m in Sources */,
+				75F87FB719CF72A900331D5A /* PHEventRequest.m in Sources */,
+				75F87FB819CF72A900331D5A /* CCEditBoxImplAndroid.cpp in Sources */,
+				75F87FB919CF72A900331D5A /* ASIAuthenticationDialog.m in Sources */,
+				75F87FBA19CF72A900331D5A /* ASIDataCompressor.m in Sources */,
+				75F87FBB19CF72A900331D5A /* SBJsonParser.m in Sources */,
+				75F87FBC19CF72A900331D5A /* CommonProperties.cpp in Sources */,
+				75F87FBD19CF72A900331D5A /* ASIDataDecompressor.m in Sources */,
+				75F87FBE19CF72A900331D5A /* PHConstants.m in Sources */,
+				75F87FBF19CF72A900331D5A /* SpriteHelper.cpp in Sources */,
+				75F87FC019CF72A900331D5A /* ASIDownloadCache.m in Sources */,
+				75F87FC119CF72A900331D5A /* PHResourceCacher.m in Sources */,
+				75F87FC219CF72A900331D5A /* SecurityHelper.cpp in Sources */,
+				75F87FC319CF72A900331D5A /* scene_assert.cpp in Sources */,
+				75F87FC419CF72A900331D5A /* ASIFormDataRequest.m in Sources */,
+				75F87FC519CF72A900331D5A /* ASIHTTPRequest.m in Sources */,
+				75F87FC619CF72A900331D5A /* CCAdvancedSprite.cpp in Sources */,
+				75F87FC719CF72A900331D5A /* SoundManager.cpp in Sources */,
+				75F87FC819CF72A900331D5A /* ASIInputStream.m in Sources */,
+				75F87FC919CF72A900331D5A /* MemoryUsageHelper.cpp in Sources */,
+				75F87FCA19CF72A900331D5A /* ASINetworkQueue.m in Sources */,
+				75F87FCB19CF72A900331D5A /* ASIWebPageRequest.m in Sources */,
+				75F87FCC19CF72A900331D5A /* TSEvent.m in Sources */,
+				75F87FCD19CF72A900331D5A /* NodeEffectGrouping.cpp in Sources */,
+				75F87FCE19CF72A900331D5A /* Reachability.m in Sources */,
+				75F87FCF19CF72A900331D5A /* CDataScanner.m in Sources */,
+				75F87FD019CF72A900331D5A /* CDataScanner_Extensions.m in Sources */,
+				75F87FD119CF72A900331D5A /* NSCharacterSet_Extensions.m in Sources */,
+				75F87FD219CF72A900331D5A /* NSDictionary_JSONExtensions.m in Sources */,
+				75F87FD319CF72A900331D5A /* NSScanner_Extensions.m in Sources */,
+				75F87FD419CF72A900331D5A /* PHPublisherOpenRequest.m in Sources */,
+				75F87FD519CF72A900331D5A /* CJSONDataSerializer.m in Sources */,
+				75F87FD619CF72A900331D5A /* CJSONDeserializer.m in Sources */,
+				75F87FD719CF72A900331D5A /* SBJsonWriter.m in Sources */,
+				75F87FD819CF72A900331D5A /* ig_interface.cpp in Sources */,
+				75F87FD919CF72A900331D5A /* FileHelper.cpp in Sources */,
+				75F87FDA19CF72A900331D5A /* CJSONScanner.m in Sources */,
+				75F87FDB19CF72A900331D5A /* LogHelper.cpp in Sources */,
+				75F87FDC19CF72A900331D5A /* CJSONSerializer.m in Sources */,
+				75F87FDD19CF72A900331D5A /* PHPushDeliveryRequest.m in Sources */,
+				75F87FDE19CF72A900331D5A /* CSerializedJSONData.m in Sources */,
+				75F87FDF19CF72A900331D5A /* AppController.mm in Sources */,
+				75F87FE019CF72A900331D5A /* main.m in Sources */,
+				75F87FE119CF72A900331D5A /* nsdata_and_base64.m in Sources */,
+				75F87FE219CF72A900331D5A /* RootViewController.mm in Sources */,
+				75F87FE319CF72A900331D5A /* ScreenLogListener.cpp in Sources */,
+				75F87FE419CF72A900331D5A /* PHPushRequest.m in Sources */,
+				75F87FE519CF72A900331D5A /* verification_controller.m in Sources */,
+				75F87FE619CF72A900331D5A /* CCInAppPurchase.cpp in Sources */,
+				75F87FE719CF72A900331D5A /* scene_base.cpp in Sources */,
+				75F87FE819CF72A900331D5A /* SceneManager.cpp in Sources */,
+				75F87FE919CF72A900331D5A /* LogoViewController.mm in Sources */,
+				75F87FEA19CF72A900331D5A /* CCAnimateWithCallback.cpp in Sources */,
+				75F87FEB19CF72A900331D5A /* ui_popup_box.cpp in Sources */,
+				75F87FEC19CF72A900331D5A /* cannon_arc_helper_node.cpp in Sources */,
+				75F87FED19CF72A900331D5A /* PHEvent.m in Sources */,
+				75F87FEE19CF72A900331D5A /* UIDebugAlert.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -5692,6 +6406,21 @@
 			name = "Static Library";
 			targetProxy = 25ABE6C316F5F3390054E612 /* PBXContainerItemProxy */;
 		};
+		75F87EC119CF72A900331D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = 75F87EC219CF72A900331D5A /* PBXContainerItemProxy */;
+		};
+		75F87EC319CF72A900331D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Resource Bundle";
+			targetProxy = 75F87EC419CF72A900331D5A /* PBXContainerItemProxy */;
+		};
+		75F87EC519CF72A900331D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2dx;
+			targetProxy = 75F87EC619CF72A900331D5A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -5699,8 +6428,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5719,6 +6448,7 @@
 					CC_TARGET_OS_IPHONE,
 					"COCOS2D_DEBUG=1",
 					CC_ENABLE_BOX2D_INTEGRATION,
+					"FreeVersion=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = "";
@@ -5745,16 +6475,16 @@
 					"$(SRCROOT)/../../../cocos2dx/platform/ios",
 					"$(PROJECT_DIR)",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-O2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Flappy Flying Butt";
-				PROVISIONING_PROFILE = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
+				PROVISIONING_PROFILE = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv7s armv7 arm64";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -5762,8 +6492,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5780,6 +6510,7 @@
 					USE_FILE32API,
 					CC_TARGET_OS_IPHONE,
 					CC_ENABLE_BOX2D_INTEGRATION,
+					"FreeVersion=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_VERSION = "";
@@ -5806,16 +6537,16 @@
 					"$(SRCROOT)/../../../cocos2dx/platform/ios",
 					"$(PROJECT_DIR)",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Flappy Flying Butt";
-				PROVISIONING_PROFILE = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
+				PROVISIONING_PROFILE = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7s armv7 arm64";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Release;
 		};
@@ -5823,8 +6554,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5870,15 +6601,16 @@
 					"$(SRCROOT)/../../../cocos2dx/platform/ios",
 					"$(PROJECT_DIR)",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-O2";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Flappy Crocodile";
-				PROVISIONING_PROFILE = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
+				PROVISIONING_PROFILE = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv6 armv7 i386";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -5886,8 +6618,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pavel Mamaev (94G97SK366)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5931,14 +6663,16 @@
 					"$(SRCROOT)/../../../cocos2dx/platform/ios",
 					"$(PROJECT_DIR)",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "Flappy Crocodile";
-				PROVISIONING_PROFILE = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
+				PROVISIONING_PROFILE = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Release;
 		};
@@ -6190,6 +6924,130 @@
 			};
 			name = Release;
 		};
+		75F8801C19CF72A900331D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios",
+					"$(SRCROOT)/Tapjoy.embeddedframework",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"COCOS2D_DEBUG=1",
+					CC_ENABLE_BOX2D_INTEGRATION,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../CocosDenshion/include",
+					"$(SRCROOT)/../../../cocos2dx/kazmath/include",
+					"$(SRCROOT)/../../../external/**",
+					"$(SRCROOT)/../../../cocos2dx",
+					"$(SRCROOT)/../../../cocos2dx/include",
+					"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios/Simulation",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios/ShareKit/Classes/ShareKit/**",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SRCROOT)/../../../cocos2dx/spine/spine-cocos2dx/src",
+					"$(SRCROOT)/../../../cocos2dx/spine/spine-c/include",
+					"$(SRCROOT)/../Classes/CommonClasses",
+				);
+				INFOPLIST_FILE = "GameFree copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-O2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "GameFree copy";
+				PROVISIONING_PROFILE = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7s armv7";
+			};
+			name = Debug;
+		};
+		75F8801D19CF72A900331D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mihail Vynnitskiy (L53ES596WP)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios",
+					"$(SRCROOT)/Tapjoy.embeddedframework",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					CC_ENABLE_BOX2D_INTEGRATION,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../CocosDenshion/include",
+					"$(SRCROOT)/../../../cocos2dx/kazmath/include",
+					"$(SRCROOT)/../../../external/**",
+					"$(SRCROOT)/../../../cocos2dx",
+					"$(SRCROOT)/../../../cocos2dx/include",
+					"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios/Simulation",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios/ShareKit/Classes/ShareKit/**",
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SRCROOT)/../../../cocos2dx/spine/spine-cocos2dx/src",
+					"$(SRCROOT)/../../../cocos2dx/spine/spine-c/include",
+					"$(SRCROOT)/../Classes/CommonClasses",
+				);
+				INFOPLIST_FILE = "GameFree copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../../../cocos2dx/platform/ios",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "GameFree copy";
+				PROVISIONING_PROFILE = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "375A34E2-E7FD-4FDC-8890-38088B030A9B";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7s armv7";
+			};
+			name = Release;
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6205,7 +7063,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "Flappy Flying Butt";
 				PROVISIONING_PROFILE = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9AB5EC59-089D-4B2D-96F5-D81C1A352A56";
@@ -6273,6 +7131,15 @@
 			buildConfigurations = (
 				253155AB173E6ADA00452B4F /* Debug */,
 				253155AC173E6ADA00452B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		75F8801B19CF72A900331D5A /* Build configuration list for PBXNativeTarget "NewGamePaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F8801C19CF72A900331D5A /* Debug */,
+				75F8801D19CF72A900331D5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

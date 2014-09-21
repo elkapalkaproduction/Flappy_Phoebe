@@ -58,10 +58,10 @@
             [self performSelector:@selector(push) withObject:nil afterDelay:timeInterval];
          }];
     }];
-    
+#ifdef FreeVersion
     AppController *rt = (AppController *)[[UIApplication sharedApplication] delegate];
     [rt.viewController interstitial];
-    
+#endif
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)push{

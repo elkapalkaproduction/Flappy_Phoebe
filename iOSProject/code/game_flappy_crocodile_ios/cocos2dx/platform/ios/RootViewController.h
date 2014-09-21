@@ -3,10 +3,11 @@
 #import <UIKit/UIKit.h>
 #import <GameKit/GameKit.h>
 #import <StoreKit/StoreKit.h>
+#ifdef FreeVersion
 #import "Chartboost.h"
 #import <RevMobAds/RevMobAds.h>
 #import "GADInterstitial.h"
-
+#endif
 #define SK_NO_TAPJOY
 
 #ifndef SK_NO_PLAYHEAVEN
@@ -16,14 +17,16 @@
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 
+#ifdef FreeVersion
 #ifndef SK_PAID
 #ifdef SK_NO_ADMOB
 	#import <iAd/iAd.h>
 	#define IAD_BANNER_OFFSET 100
 #else
 	#import "GADBannerViewDelegate.h"
-#endif // #ifdef SK_NO_ADMOB
+#endif //#ifdef SK_NO_ADMOB
 #endif // #ifndef SK_PAID
+#endif
 
 #ifndef SK_NO_ADCOLONY
     #import <AdColony/AdColony.h>
@@ -41,6 +44,7 @@
 
 @interface RootViewController : UIViewController <
 
+#ifdef FreeVersion
 #ifndef SK_PAID
 #ifdef SK_NO_ADMOB
 	ADBannerViewDelegate,
@@ -48,12 +52,15 @@
 	GADBannerViewDelegate,
 #endif // #ifdef SK_NO_ADMOB
 #endif // #ifndef SK_PAID
+#endif
 
 GC_DELEGATE_LIST,
 SKProductsRequestDelegate,
 SKPaymentTransactionObserver,
+#ifdef FreeVersion
 RevMobAdsDelegate,
 ChartboostDelegate,
+#endif
 #ifndef SK_NO_PLAYHEAVEN
 	PHAPIRequestDelegate,
 	PHPublisherContentRequestDelegate,
@@ -81,8 +88,9 @@ MFMailComposeViewControllerDelegate
 #endif
 @property (nonatomic, retain) NSArray* products;
 @property (nonatomic, retain) SKProductsRequest * products_request;
+#ifdef FreeVersion
 @property (strong, nonatomic) GADInterstitial *interstitial;
-
+#endif
 #ifndef SK_NO_TAPJOY
 @property (nonatomic, retain) TapJoyHandler* TapJoy;
 #endif

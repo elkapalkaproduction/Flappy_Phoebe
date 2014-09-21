@@ -408,7 +408,6 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85A928981611272D008699F1 /* Social.framework */,
 				B9A4166916113DE3001E7A77 /* AdSupport.framework */,
 				845857A116096ED000CC89E5 /* Accounts.framework */,
 				85A928981611272D008699F1 /* Social.framework */,
@@ -511,8 +510,6 @@
 				DDB7C34A15A6181100C8DCE6 /* FBSettings.h */,
 				2A68590515C1E37E001D4EDD /* FBSettings+Internal.h */,
 				DDB7C34B15A6181100C8DCE6 /* FBSettings.m */,
-				9D17A8DB1671774B00AB1148 /* FBSystemAccountStoreAdapter.h */,
-				9D17A8DC1671774B00AB1148 /* FBSystemAccountStoreAdapter.m */,
 				8525A5B8156F2049009F6F3F /* FBTestSession.h */,
 				85F29E9315785D72001F0531 /* FBTestSession+Internal.h */,
 				8525A5B9156F2049009F6F3F /* FBTestSession.m */,
@@ -693,7 +690,7 @@
 			name = FacebookSDKTests;
 			productName = FacebookSDKTests;
 			productReference = B9CBC519152537270036AA71 /* FacebookSDKTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		D2AAC07D0554694100DB518D /* facebook-ios-sdk */ = {
 			isa = PBXNativeTarget;
@@ -718,7 +715,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastTestingUpgradeCheck = 0510;
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "facebook-ios-sdk" */;
